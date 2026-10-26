@@ -23,3 +23,10 @@
 .mary-hero-categories li>span{min-width:32px;color:var(--acc-forte)}.mary-hero-categories li em{font-style:normal}.mary-contact-steps{display:grid;gap:10px;padding:0;margin:4px 0 8px;list-style:none;color:var(--text-2)}.mary-contact-steps li{display:flex;align-items:center;gap:12px}.mary-contact-steps .mono{color:var(--acc-forte);font-size:.75rem}.servicos__corte-rotulo{visibility:hidden!important}
 
 .servicos__cor-leitura,.servicos__trilho-numeros{display:none!important}
+
+/* Mary: mantém a sequência visual HALO com ritmo mais próximo e transições suaves. */
+.secao{padding-block:clamp(72px,9vw,120px)}
+.tons__varredura{background:linear-gradient(100deg,transparent 20%,rgb(var(--papel-rgb)/.16) 38%,rgb(var(--papel-rgb)/.28) 50%,rgb(var(--papel-rgb)/.16) 62%,transparent 80%);mix-blend-mode:soft-light}
+.tons__midia,.tons__camada img{background:var(--bg-3)}
+.mary-work:hover img{filter:saturate(1.02)}
+.servicos__celula:hover .servicos__foto,.servicos__celula:hover .servicos__comparar-natural img{scale:1.025}
