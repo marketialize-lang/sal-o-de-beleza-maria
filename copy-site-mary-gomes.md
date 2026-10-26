@@ -20,7 +20,7 @@ A página acompanha a sequência e os efeitos da referência: apresentação, fa
 
 **Título:** Beleza e cuidado com Mary Gomes.
 
-**Texto:** São 30 anos de experiência em serviços para cabelo, unhas e beleza. Veja o que Mary faz, escolha o seu serviço e fale com ela pelo WhatsApp.
+**Texto:** Mary trabalha há 30 anos com cabelo, unhas e beleza. Veja os trabalhos, escolha um serviço e fale com ela pelo WhatsApp.
 
 **Ações:** Ver serviços · Agendar com a Mary.
 
@@ -65,7 +65,7 @@ As fotos são organizadas por cabelo e unhas, com filtros acessíveis por toque.
 
 **Título:** Quem cuida de você é Mary Gomes.
 
-**Texto:** Conheça Mary e os serviços que ela realiza no salão.
+**Texto:** Mary atende com serviços de cabelo, unhas, sobrancelhas e depilação.
 
 **Marcas informadas:** Natura, DeMillus, Abelha Rainha, entre outras. Cada cartão permite perguntar diretamente a Mary sobre os produtos disponíveis.
 
