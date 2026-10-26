@@ -26,7 +26,7 @@
 .servicos__cor-leitura,.servicos__trilho-numeros{display:none!important}
 
 /* Mary: mantém a sequência visual HALO com ritmo mais próximo e transições suaves. */
-.secao{padding-block:clamp(72px,9vw,120px)}
+.secao{padding-block:clamp(60px,7vw,96px)}
 .tons__varredura{background:linear-gradient(100deg,transparent 20%,rgb(var(--papel-rgb)/.16) 38%,rgb(var(--papel-rgb)/.28) 50%,rgb(var(--papel-rgb)/.16) 62%,transparent 80%);mix-blend-mode:soft-light}
 .tons__midia,.tons__camada img{background:var(--bg-3)}
 .mary-work:hover img{filter:saturate(1.02)}
@@ -47,3 +47,15 @@
     overflow-wrap: anywhere;
   }
 }
+
+/* Portfólio: comparação direta da mesma cliente antes e depois, com revelação original. */
+.mary-gallery{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.mary-transform{min-width:0;margin:0;padding:10px;border-radius:var(--r-lg);background:rgb(var(--papel-rgb)/.38);box-shadow:inset 0 0 0 1px var(--line)}
+.mary-transform__pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px;overflow:hidden;border-radius:var(--r-md)}
+.mary-transform__pair figure{position:relative;aspect-ratio:4/5;overflow:hidden;margin:0;background:var(--bg-3)}
+.mary-transform__pair img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .65s var(--ease-out),filter .5s var(--ease-out)}
+.mary-transform:hover .mary-transform__pair img{transform:scale(1.025)}
+.mary-transform__pair figcaption{position:absolute;left:8px;bottom:8px;padding:5px 9px;border-radius:var(--r-pill);color:var(--text);background:rgb(15 14 18/.76);font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;backdrop-filter:blur(8px)}
+.mary-transform__caption{margin:12px 4px 3px;color:var(--text-2);font-size:var(--fs-small);text-align:center}
+@media(max-width:900px){.mary-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:640px){.secao{padding-block:clamp(50px,12vw,72px)}.mary-gallery{grid-template-columns:minmax(0,1fr);gap:12px}.mary-transform{padding:8px}.mary-transform__pair{gap:7px}}
