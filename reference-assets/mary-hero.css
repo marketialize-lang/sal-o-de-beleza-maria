@@ -1,0 +1,9 @@
+/* Adapta o recorte vertical do retrato real de Mary à composição da hero. */
+.topo__foto-moldura {
+  aspect-ratio: 1122 / 1402;
+}
+
+.topo__foto-moldura img {
+  object-fit: cover;
+  object-position: 50% 14%;
+}

@@ -1,0 +1,28 @@
+HALO Beauty Lab (versão clara) | Salão de beleza
+
+ABRIR A PÁGINA
+Dê dois cliques em index.html. Esta pasta funciona sozinha.
+
+EDITAR
+index.html: textos, estrutura e o código da página (no <script type="module"> do começo do arquivo).
+assets/style.css: cores, fontes, tamanhos e animações.
+assets: imagens, fontes e ícone próprios desta página.
+Serviços, preços, tons, equipe, planos e perguntas ficam no código do index.html. Para trocar, use "Localizar e
+substituir" no editor (no VS Code: Ctrl+H ou Cmd+Option+F) com o texto que aparece na página.
+
+CONTATO DO CLIENTE (troque no index.html com "Localizar e substituir")
+  5500000000000            → WhatsApp com DDI e DDD, só dígitos
+  (00) 0000-0000           → telefone escrito como aparece na página
+  @halobeautylab           → Instagram
+  Av. Exemplo, 1200, sala 3 → endereço
+
+PUBLICAR
+Envie todo o conteúdo desta pasta para a hospedagem, preservando os nomes e caminhos. Não é necessário instalar
+pacotes ou compilar.
+
+Marca, fotos e dados demonstrativos. O número 5500000000000 é de exemplo (inválido de propósito): troque antes de publicar.
+
+LICENÇA
+Template UPW-HALO-L7K3 · © 2026 Upward Academy. Leia a LICENCA.txt: pode usar e modificar para os seus
+clientes finais; é proibido revender ou redistribuir este template. Criado por Upward Academy:
+https://app.upwardacademy.com.br/app/templates
