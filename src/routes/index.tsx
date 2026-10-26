@@ -30,7 +30,29 @@ function HomePage() {
     script.type = "module";
     script.src = "/assets/halo-template.js";
     document.body.appendChild(script);
-    return () => script.remove();
+
+    const handleGalleryFilter = (event: MouseEvent) => {
+      const target = event.target;
+      if (!(target instanceof Element)) return;
+      const button = target.closest<HTMLButtonElement>("[data-filter]");
+      if (!button) return;
+
+      const selected = button.dataset.filter;
+      document.querySelectorAll<HTMLButtonElement>("[data-filter]").forEach((filter) => {
+        const isSelected = filter === button;
+        filter.classList.toggle("is-active", isSelected);
+        filter.setAttribute("aria-pressed", String(isSelected));
+      });
+      document.querySelectorAll<HTMLElement>(".mary-work[data-tipo]").forEach((work) => {
+        work.hidden = selected !== "todos" && work.dataset.tipo !== selected;
+      });
+    };
+
+    document.addEventListener("click", handleGalleryFilter);
+    return () => {
+      document.removeEventListener("click", handleGalleryFilter);
+      script.remove();
+    };
   }, []);
 
   return <div dangerouslySetInnerHTML={{ __html: templateBody }} />;

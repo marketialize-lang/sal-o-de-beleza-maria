@@ -1,6 +1,6 @@
 # Copy do site — Mary Gomes
 
-**Estado:** planejamento de copy para as dobras do site. A primeira dobra está implementada; as demais serão aplicadas no template por etapa. Revisada com a skill LIGHT COPY e limitada às informações fornecidas por Rafael.
+**Estado:** copy aplicada ao template HALO adaptada para Mary Gomes. Revisada com a skill LIGHT COPY e limitada às informações fornecidas por Rafael.
 
 ## Direção de conteúdo
 
@@ -15,16 +15,16 @@
 ## Hero
 
 **Título**
-Beleza com experiência.
+Beleza e cuidado com Mary Gomes.
 
 **Texto de apoio**
-Há 30 anos cuidando da beleza de cada cliente. Conheça os serviços de cabelo, unhas, sobrancelhas e depilação, escolha o que deseja e fale diretamente com Mary.
+São 30 anos de experiência em serviços para cabelo, unhas e beleza. Veja o que Mary faz, escolha o seu serviço e fale com ela pelo WhatsApp.
 
 **Ação principal**
 Ver serviços
 
 **Ação secundária**
-Falar no WhatsApp
+Agendar com a Mary
 
 **Imagem**
 Usar `public/mary/mary-1122.webp` na moldura da hero, mantendo o enquadramento vertical do template.
@@ -33,15 +33,15 @@ Usar `public/mary/mary-1122.webp` na moldura da hero, mantendo o enquadramento v
 
 **Título:** Um lugar para cuidar de você por inteiro.
 
-**Texto:** De um corte ou uma escova a unhas em gel e cuidados com o olhar. Veja o que Mary oferece, confira os valores e escolha por onde quer começar.
+**Texto:** Conheça os serviços e valores de Mary, escolha o que procura e fale diretamente com ela.
 
 ## Trabalhos e vídeos
 
 **Título:** Beleza vista de perto.
 
-**Texto:** Alguns registros de cabelos e unhas feitos no salão.
+**Texto:** Alguns registros do portfólio de Mary.
 
-**Mídia:** `public/mary/work-*.jpeg` reúne as 65 imagens fornecidas; a galeria usa imagens de trabalhos de cabelo e unhas. Os quatro vídeos fornecidos estão em `public/mary/video-*.mp4`; três aparecem com controles nativos. Não foram criadas legendas com nomes de clientes nem resultados não informados.
+**Mídia:** `public/mary/work-*.jpeg` reúne as 65 imagens fornecidas; a galeria usa imagens de trabalhos de cabelo e unhas. Os quatro vídeos fornecidos estão em `public/mary/video-*.mp4` e aparecem com controles nativos. Não foram criadas legendas com nomes de clientes nem resultados não informados.
 
 ## Serviços e valores
 
@@ -49,7 +49,7 @@ Usar `public/mary/mary-1122.webp` na moldura da hero, mantendo o enquadramento v
 
 **Texto:** Confira os valores informados. Nos serviços marcados como “a partir de”, o preço apresentado é inicial.
 
-O seletor permite filtrar cabelo, unhas e olhar/depilação. Cada linha abre o WhatsApp com o nome do serviço na mensagem.
+As fotos de trabalhos podem ser filtradas por cabelo e unhas. Os serviços ficam organizados por categoria; cada serviço informado abre o WhatsApp com seu nome na mensagem. Maquiagem foi mantida da página de referência sem preço informado.
 
 | Serviço                         |                 Valor |
 | ------------------------------- | --------------------: |
@@ -79,10 +79,11 @@ O seletor permite filtrar cabelo, unhas e olhar/depilação. Cada linha abre o W
 | Depilação de buço               |              R$ 30,00 |
 | Depilação de axilas             |              R$ 25,00 |
 | Banho de brilho com escova      |  A partir de R$ 80,00 |
+| Maquiagem (referência)          |          Consulte Mary |
 
 ## Quem é Mary
 
-**Título:** Mary Gomes. 30 anos de experiência.
+**Título:** Quem cuida de você é Mary Gomes.
 
 **Texto:** Mary trabalha com serviços de cabelo, unhas, sobrancelhas e depilação. Aqui você pode conhecer as opções e conversar diretamente com ela para escolher o atendimento.
 
@@ -111,7 +112,7 @@ O seletor permite filtrar cabelo, unhas e olhar/depilação. Cada linha abre o W
 
 ## Chamada final
 
-**Título:** Seu próximo cuidado começa com uma conversa.
+**Título:** Escolheu? É só chamar.
 
 **Texto:** Escolha um serviço e mande uma mensagem para Mary.
 
@@ -128,7 +129,7 @@ Mary Gomes · WhatsApp (21) 98755-0704 · Instagram no link recebido por Rafael.
 - Hero com retrato recortado, anéis orbitais e cartões flutuantes.
 - Faixa de categorias em movimento, entrada suave de seções, galeria com zoom sutil e filtros acessíveis por toque.
 - Respeito a `prefers-reduced-motion`; layouts responsivos para menu móvel e serviços.
-- O modelo de planos, os indicadores HALO, os depoimentos demo e as alegações da equipe não foram publicados como fatos sobre Mary.
+- O modelo de planos e as alegações da equipe foram removidos. Por orientação explícita de Rafael, os depoimentos existentes no template foram preservados; os indicadores de avaliações da HALO não são exibidos como fatos sobre Mary.
 
 ## Pendências para confirmação futura
 
