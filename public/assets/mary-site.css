@@ -30,3 +30,19 @@
 .tons__midia,.tons__camada img{background:var(--bg-3)}
 .mary-work:hover img{filter:saturate(1.02)}
 .servicos__celula:hover .servicos__foto,.servicos__celula:hover .servicos__comparar-natural img{scale:1.025}
+
+@media (max-width: 767px) {
+  #tons .tons__leitura {
+    grid-template-columns: minmax(0, 1fr);
+    align-items: start;
+    gap: 4px;
+  }
+
+  #tons .tons__leitura .leitura__valor {
+    justify-self: start;
+    max-width: 100%;
+    text-align: left;
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+}
