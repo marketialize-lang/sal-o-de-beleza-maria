@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect } from "react";
 import templateBody from "../halo-template-body.html?raw";
+import { initMaryPortfolioEffects } from "../lib/mary-portfolio-effects";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -24,6 +25,7 @@ export const Route = createFileRoute("/")({
 
 function HomePage() {
   useEffect(() => {
+    const cleanupPortfolioEffects = initMaryPortfolioEffects(document);
     // Start the original HALO template runtime only after its original markup is in the DOM.
     document.documentElement.classList.add("js", "estilos-ok");
     const script = document.createElement("script");
@@ -52,6 +54,7 @@ function HomePage() {
     return () => {
       document.removeEventListener("click", handleGalleryFilter);
       script.remove();
+      cleanupPortfolioEffects();
     };
   }, []);
 
