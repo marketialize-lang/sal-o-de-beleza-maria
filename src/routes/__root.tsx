@@ -77,14 +77,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Mary Gomes | Beleza e cuidado" },
+      { title: "Mary Gomes | Salão de Beleza" },
       {
         name: "description",
-        content: "Conheça os serviços de beleza de Mary Gomes, profissional com 30 anos de experiência. Veja os valores e fale pelo WhatsApp.",
+        content: "Conheça os serviços e valores do salão de Mary Gomes. Escolha seu serviço e fale diretamente com Mary pelo WhatsApp.",
       },
       { name: "author", content: "Mary Gomes" },
-      { property: "og:title", content: "Mary Gomes | Beleza e cuidado" },
-      { property: "og:description", content: "Serviços e valores do salão de Mary Gomes. 30 anos de experiência." },
+      { property: "og:title", content: "Mary Gomes | Salão de Beleza" },
+      { property: "og:description", content: "Serviços e valores do salão de Mary Gomes. Agende diretamente pelo WhatsApp." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],

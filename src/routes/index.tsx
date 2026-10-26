@@ -5,16 +5,16 @@ import templateBody from "../halo-template-body.html?raw";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Mary Gomes | Beleza e cuidado" },
+      { title: "Mary Gomes | Salão de Beleza" },
       {
         name: "description",
         content:
-          "Conheça os serviços de beleza de Mary Gomes, profissional com 30 anos de experiência. Veja os valores e fale pelo WhatsApp.",
+          "Conheça os serviços e valores do salão de Mary Gomes. Escolha seu serviço e fale diretamente com Mary pelo WhatsApp.",
       },
-      { property: "og:title", content: "Mary Gomes | Beleza e cuidado" },
+      { property: "og:title", content: "Mary Gomes | Salão de Beleza" },
       {
         property: "og:description",
-        content: "Serviços e valores do salão de Mary Gomes. 30 anos de experiência.",
+        content: "Serviços e valores do salão de Mary Gomes. Agende diretamente pelo WhatsApp.",
       },
       { property: "og:type", content: "website" },
     ],
