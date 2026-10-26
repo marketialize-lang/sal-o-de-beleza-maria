@@ -1,6 +1,23 @@
 if (!window.__maryPortfolioEffectsLoaded) {
   window.__maryPortfolioEffectsLoaded = true;
 
+  const referenceLabels = document.querySelectorAll(
+    ".tons__barra-reflexo, [data-campo=\"reflexo\"]",
+  );
+  const syncReferenceLabel = () => {
+    referenceLabels.forEach((label) => {
+      if (label.textContent.trim() !== "Referência visual do portfólio") {
+        label.textContent = "Referência visual do portfólio";
+      }
+    });
+  };
+  syncReferenceLabel();
+  new MutationObserver(syncReferenceLabel).observe(document.body, {
+    childList: true,
+    characterData: true,
+    subtree: true,
+  });
+
   document.querySelectorAll(".mary-ba").forEach((frame) => {
     if (frame.dataset.effectReady) return;
     frame.dataset.effectReady = "true";
