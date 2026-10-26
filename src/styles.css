@@ -142,3 +142,15 @@
     color: var(--color-foreground);
   }
 }
+
+/* Esconde o selo/badge do Lovable em qualquer lugar da página */
+a[href*="lovable"],
+[class*="lovable"],
+[id*="lovable"],
+img[src*="lovable"],
+button[class*="lovable"],
+div[class*="lovable"],
+div[id*="lovable"],
+[aria-label*="lovable" i] {
+  display: none !important;
+}
