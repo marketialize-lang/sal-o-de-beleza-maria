@@ -59,13 +59,15 @@ Os serviços aparecem organizados em seis cartões do design original: corte; co
 
 ### Portfólio e depoimentos
 
-As fotos são organizadas por cabelo e unhas, com filtros acessíveis por toque. Os quatro vídeos usam os arquivos originais enviados. Os depoimentos da página de referência foram mantidos; os indicadores de avaliação da marca de origem ficam ocultos para não atribuí-los a Mary.
+O portfólio mostra transformações de cabelo antes e depois e, em seguida, outros resultados de cabelo e unhas em imagens individuais. Os quatro vídeos usam os arquivos originais enviados. Os depoimentos da página de referência foram mantidos; os indicadores de avaliação da marca de origem ficam ocultos para não atribuí-los a Mary.
+
+**Texto de abertura:** Trabalhos feitos pela Mary. Veja algumas transformações e outros trabalhos de cabelo e unhas.
 
 ### Mary e marcas
 
 **Título:** Quem cuida de você é Mary Gomes.
 
-**Texto:** Mary atende com serviços de cabelo, unhas, sobrancelhas e depilação.
+**Texto:** Há 30 anos, Mary cuida de cabelo e beleza com atenção a cada pessoa.
 
 **Marcas informadas:** Natura, DeMillus, Abelha Rainha, entre outras. Cada cartão permite perguntar diretamente a Mary sobre os produtos disponíveis.
 
@@ -73,7 +75,7 @@ As fotos são organizadas por cabelo e unhas, com filtros acessíveis por toque.
 
 **Título:** Escolheu o serviço? Fale com Mary.
 
-O site não coleta agendamentos. Cada atalho abre uma conversa no WhatsApp; a combinação do atendimento acontece diretamente com Mary.
+Mary combina o atendimento diretamente pelo WhatsApp. Cada atalho abre uma conversa com o serviço escolhido.
 
 As dúvidas explicam a escolha do serviço, os valores “a partir de”, o atendimento pelo WhatsApp, as categorias oferecidas, as marcas e o portfólio.
 
