@@ -1,142 +1,86 @@
 # Copy do site — Mary Gomes
 
-**Estado:** copy aplicada ao template HALO adaptada para Mary Gomes. Revisada com a skill LIGHT COPY e limitada às informações fornecidas por Rafael.
+**Estado:** copy aplicada à estrutura original da página HALO. Os textos usam somente as informações recebidas de Rafael e os depoimentos mantidos conforme a orientação dele.
 
 ## Direção de conteúdo
 
 - **Marca:** Mary Gomes.
-- **Experiência informada:** 30 anos.
-- **Ação principal:** a pessoa vê o trabalho, escolhe um serviço e abre o WhatsApp com esse serviço já indicado na mensagem.
-- **Tom:** direto, próximo e claro. A experiência aparece como fato, sem promessas de resultado.
-- **Imagem principal:** `public/mary/mary-1122.webp`, retrato de Mary. A versão 800 px é usada na apresentação.
+- **Experiência informada:** 30 anos, citada uma vez na apresentação principal.
+- **Ação:** a pessoa vê fotos e vídeos, escolhe um serviço e abre o WhatsApp com o serviço no texto da mensagem.
 - **Contato:** WhatsApp `+55 21 98755-0704`.
 - **Instagram recebido:** https://www.instagram.com/invites/contact/?utm_content=em5es4e&dlrf=1l829qe1pp3n7
+- **Imagens:** retrato de Mary em `public/mary/`; trabalhos em `public/mary/work-*.jpeg`.
+- **Vídeos:** os quatro arquivos em `public/mary/video-*.mp4`, com controles nativos.
 
-## Hero
+## Estrutura e copy
 
-**Título**
-Beleza e cuidado com Mary Gomes.
+A página acompanha a sequência e os efeitos da referência: apresentação, faixa de categorias, jornada visual em quatro etapas, serviços, portfólio interativo, depoimentos, apresentação de Mary, marcas, contato pelo WhatsApp, dúvidas e chamada final.
 
-**Texto de apoio**
-São 30 anos de experiência em serviços para cabelo, unhas e beleza. Veja o que Mary faz, escolha o seu serviço e fale com ela pelo WhatsApp.
+### Apresentação
 
-**Ação principal**
-Ver serviços
+**Título:** Beleza e cuidado com Mary Gomes.
 
-**Ação secundária**
-Agendar com a Mary
+**Texto:** São 30 anos de experiência em serviços para cabelo, unhas e beleza. Veja o que Mary faz, escolha o seu serviço e fale com ela pelo WhatsApp.
 
-**Imagem**
-Usar `public/mary/mary-1122.webp` na moldura da hero, mantendo o enquadramento vertical do template.
+**Ações:** Ver serviços · Agendar com a Mary.
 
-## Introdução
+### Serviços e valores
 
-**Título:** Um lugar para cuidar de você por inteiro.
+Os serviços aparecem organizados em seis cartões do design original: corte; coloração e mechas; tratamentos; escova e banho de brilho; unhas e pés; sobrancelhas, depilação e maquiagem. Cada serviço informado tem seu próprio link para o WhatsApp. Valores “a partir de” mantêm essa condição. Maquiagem permanece como serviço da referência e direciona a pessoa a consultar Mary, sem valor inventado.
 
-**Texto:** Conheça os serviços e valores de Mary, escolha o que procura e fale diretamente com ela.
+| Serviço | Valor informado |
+|---|---:|
+| Unha de gel, método F1 | R$ 100,00 |
+| Unhas soft gel | R$ 130,00 |
+| Banho de gel | R$ 80,00 |
+| Mão tradicional | R$ 30,00 |
+| Pé tradicional | R$ 30,00 |
+| Gel tip | R$ 110,00 |
+| Unha postiça | R$ 50,00 |
+| Speed tip gel | R$ 120,00 |
+| Spa dos pés | R$ 80,00 |
+| Sobrancelha tradicional | R$ 25,00 |
+| Design de sobrancelha com henna | R$ 40,00 |
+| Henna tradicional | R$ 25,00 |
+| Corte feminino | R$ 70,00 |
+| Escova progressiva | A partir de R$ 130,00 |
+| Hidratação | R$ 50,00 |
+| Escova | A partir de R$ 45,00 |
+| Mechas no papel | A partir de R$ 250,00 |
+| Luzes | A partir de R$ 200,00 |
+| Botox | A partir de R$ 130,00 |
+| Reconstrução | A partir de R$ 60,00 |
+| Cauterização | A partir de R$ 150,00 |
+| Coloração com a tinta de Mary | R$ 70,00 |
+| Coloração com a tinta da cliente | R$ 40,00 |
+| Depilação de buço | R$ 30,00 |
+| Depilação de axilas | R$ 25,00 |
+| Banho de brilho com escova | A partir de R$ 80,00 |
 
-## Trabalhos e vídeos
+### Portfólio e depoimentos
 
-**Título:** Beleza vista de perto.
+As fotos são organizadas por cabelo e unhas, com filtros acessíveis por toque. Os quatro vídeos usam os arquivos originais enviados. Os depoimentos da página de referência foram mantidos; os indicadores de avaliação da marca de origem ficam ocultos para não atribuí-los a Mary.
 
-**Texto:** Alguns registros do portfólio de Mary.
-
-**Mídia:** `public/mary/work-*.jpeg` reúne as 65 imagens fornecidas; a galeria usa imagens de trabalhos de cabelo e unhas. Os quatro vídeos fornecidos estão em `public/mary/video-*.mp4` e aparecem com controles nativos. Não foram criadas legendas com nomes de clientes nem resultados não informados.
-
-## Serviços e valores
-
-**Título:** O que você procura hoje?
-
-**Texto:** Confira os valores informados. Nos serviços marcados como “a partir de”, o preço apresentado é inicial.
-
-As fotos de trabalhos podem ser filtradas por cabelo e unhas. Os serviços ficam organizados por categoria; cada serviço informado abre o WhatsApp com seu nome na mensagem. Maquiagem foi mantida da página de referência sem preço informado.
-
-| Serviço                         |                 Valor |
-| ------------------------------- | --------------------: |
-| Unha de gel modo F1             |             R$ 100,00 |
-| Unhas soft gel                  |             R$ 130,00 |
-| Banho de gel                    |              R$ 80,00 |
-| Mão tradicional                 |              R$ 30,00 |
-| Pé tradicional                  |              R$ 30,00 |
-| Gel tip                         |             R$ 110,00 |
-| Postiça                         |              R$ 50,00 |
-| Speed tip gel                   |             R$ 120,00 |
-| Spa dos pés                     |              R$ 80,00 |
-| Sobrancelha tradicional         |              R$ 25,00 |
-| Design de sobrancelha com henna |              R$ 40,00 |
-| Henna tradicional               |              R$ 25,00 |
-| Corte feminino                  |              R$ 70,00 |
-| Escova progressiva              | A partir de R$ 130,00 |
-| Hidratação                      |              R$ 50,00 |
-| Escova                          |  A partir de R$ 45,00 |
-| Mechas papel                    | A partir de R$ 250,00 |
-| Luzes                           | A partir de R$ 200,00 |
-| Botox                           | A partir de R$ 130,00 |
-| Reconstrução                    |  A partir de R$ 60,00 |
-| Cauterização                    | A partir de R$ 150,00 |
-| Coloração com minha tinta       |              R$ 70,00 |
-| Coloração com tinta da cliente  |              R$ 40,00 |
-| Depilação de buço               |              R$ 30,00 |
-| Depilação de axilas             |              R$ 25,00 |
-| Banho de brilho com escova      |  A partir de R$ 80,00 |
-| Maquiagem (referência)          |          Consulte Mary |
-
-## Quem é Mary
+### Mary e marcas
 
 **Título:** Quem cuida de você é Mary Gomes.
 
-**Texto:** Mary trabalha com serviços de cabelo, unhas, sobrancelhas e depilação. Aqui você pode conhecer as opções e conversar diretamente com ela para escolher o atendimento.
+**Texto:** Conheça Mary e os serviços que ela realiza no salão.
 
-## Produtos
+**Marcas informadas:** Natura, DeMillus, Abelha Rainha, entre outras. Cada cartão permite perguntar diretamente a Mary sobre os produtos disponíveis.
 
-**Título:** Marcas que você encontra por aqui.
+### Contato e dúvidas
 
-**Texto:** Além dos serviços, Mary também trabalha com produtos destas marcas.
+**Título:** Escolheu o serviço? Fale com Mary.
 
-**Marcas informadas:** Natura, DeMillus, Abelha Rainha e outras.
+O site não coleta agendamentos. Cada atalho abre uma conversa no WhatsApp; a combinação do atendimento acontece diretamente com Mary.
 
-## Próximo passo
-
-**Título:** Escolheu? É só chamar.
-
-1. Veja os serviços.
-2. Escolha o que procura.
-3. Converse com Mary pelo WhatsApp, com o serviço indicado na mensagem.
-
-## Dúvidas frequentes
-
-1. **Como escolho o serviço?** Veja as categorias e valores nesta página. Cada serviço tem um atalho para conversar com Mary pelo WhatsApp.
-2. **O que significa “a partir de”?** Esse é o valor inicial informado. Para confirmar o valor do atendimento, converse com Mary.
-3. **Os serviços são agendados pelo site?** Não. O site apresenta os serviços e abre uma conversa no WhatsApp.
-4. **Também encontro produtos no salão?** Mary informou que trabalha com Natura, DeMillus, Abelha Rainha, entre outras marcas.
-
-## Chamada final
-
-**Título:** Escolheu? É só chamar.
-
-**Texto:** Escolha um serviço e mande uma mensagem para Mary.
-
-**Ação:** Abrir WhatsApp
-
-## Rodapé
-
-Mary Gomes · WhatsApp (21) 98755-0704 · Instagram no link recebido por Rafael.
+As dúvidas explicam a escolha do serviço, os valores “a partir de”, o atendimento pelo WhatsApp, as categorias oferecidas, as marcas e o portfólio.
 
 ## Direção visual e interações
 
-- Paleta editorial em ameixa, rosé, papel claro e texto escuro, adaptada do pacote de referência.
-- Tipografia serifada para títulos e sans serif/mono para leitura e metadados.
-- Hero com retrato recortado, anéis orbitais e cartões flutuantes.
-- Faixa de categorias em movimento, entrada suave de seções, galeria com zoom sutil e filtros acessíveis por toque.
-- Respeito a `prefers-reduced-motion`; layouts responsivos para menu móvel e serviços.
-- O modelo de planos e as alegações da equipe foram removidos. Por orientação explícita de Rafael, os depoimentos existentes no template foram preservados; os indicadores de avaliações da HALO não são exibidos como fatos sobre Mary.
+O projeto preserva a identidade visual, a sequência de seções e os efeitos da página HALO usada como referência, adaptando fotos, vídeos, textos e categorias para Mary. O layout responde às telas móveis e respeita a preferência por movimento reduzido.
 
-## Pendências para confirmação futura
+## Limites dos dados recebidos
 
-- O link do Instagram fornecido parece ser de convite; foi mantido sem trocar por outro endereço.
-- A tabela conserva as condições de preço “a partir de” recebidas. Não foram acrescentados endereço, horário, planos, avaliações ou formas de pagamento.
-
-<!--
-The remaining historical draft below is retained as working notes while the
-implemented copy above remains the current source of truth.
--->
+Não foram acrescentados endereço, horários, planos, valores para maquiagem ou promessas de resultado. O link do Instagram foi mantido exatamente como enviado.

@@ -17,11 +17,11 @@
     </a>
 
     <nav class="nav__links" aria-label="Seções">
-      <a href="#diagnostico">Como escolher</a>
+      <a href="#diagnostico">Como funciona</a>
       <a href="#servicos">Serviços</a>
-      <a href="#trabalhos">Trabalhos</a>
-      <a href="#mary">Mary Gomes</a>
-      <a href="#produtos">Produtos</a>
+      <a href="#tons">Trabalhos</a>
+      <a href="#equipe">Mary Gomes</a>
+      <a href="#clube">Produtos</a>
     </nav>
 
     <div class="nav__acoes">
@@ -36,11 +36,11 @@
 </header>
 
 <div class="menu-movel" id="menu-movel" aria-hidden="true">
-  <a href="#diagnostico">Como escolher</a>
+  <a href="#diagnostico">Como funciona</a>
   <a href="#servicos">Serviços</a>
-  <a href="#trabalhos">Trabalhos</a>
-  <a href="#mary">Mary Gomes</a>
-  <a href="#produtos">Produtos</a>
+  <a href="#tons">Trabalhos</a>
+  <a href="#equipe">Mary Gomes</a>
+  <a href="#clube">Produtos</a>
   <a class="btn btn--principal" href="#servicos"><span class="btn__rotulo">Ver serviços</span></a>
 </div>
 
@@ -78,7 +78,7 @@
           <span class="btn__rotulo">Ver serviços</span>
           <i data-icone="arrow-right"></i>
         </a>
-        <a class="btn btn--vidro topo__ver" data-wa="Olá, Mary! Quero conversar sobre um serviço." href="#">
+        <a class="btn btn--vidro topo__ver" data-wa="Olá, Mary! Quero saber sobre os serviços do salão." href="#diagnostico">
           <span class="btn__rotulo">Agendar com a Mary</span>
         </a>
       </div>
@@ -136,7 +136,7 @@
           <span class="topo__card-tag mono">R$ 70,00</span>
         </header>
         <div class="topo__cor">
-          <img src="/assets/tom-iluminado-480-DssiT2eA.webp" alt="" width="480" height="600" loading="eager" decoding="async" />
+          <img src="/mary/work-60.jpeg" alt="" width="1200" height="1600" loading="eager" decoding="async" />
           <div class="topo__cor-dados">
             <div class="leitura"><span class="leitura__rotulo">COM MINHA TINTA</span><span class="leitura__valor">R$ 70,00</span></div>
             <div class="leitura"><span class="leitura__rotulo">TINTA DA CLIENTE</span><span class="leitura__valor">R$ 40,00</span></div>
@@ -151,8 +151,8 @@
         <article class="vidro topo__card topo__card--meio">
           <header class="topo__card-cab">
             <span class="topo__card-icone"><i data-icone="eye"></i></span>
-            <span><b>Mary Gomes</b><small class="mono">SALÃO DE BELEZA</small></span>
-            <span class="topo__card-tag mono">WHATSAPP</span>
+            <span><b>Mary Gomes</b><small class="mono">CABELO E BELEZA</small></span>
+            <span class="topo__card-tag mono">MARY GOMES</span>
           </header>
           <div class="topo__lente">
             <canvas class="topo__lente-canvas"></canvas>
@@ -176,65 +176,564 @@
           <span><b>Serviços</b><small class="mono">ESCOLHA O SEU</small></span>
           <span class="topo__card-tag mono">Mary Gomes</span>
         </header>
-        <ul class="topo__horarios">
-          <li><span class="mono">R$ 70,00</span>Corte feminino<em>serviço</em></li>
-          <li><span class="mono">R$ 50,00</span>Hidratação<em>serviço</em></li>
-          <li ><span class="mono">R$ 30,00</span>Mão tradicional<em>serviço</em></li>
-          <li><span class="mono">R$ 30,00</span>Pé tradicional<em>serviço</em></li>
+        <ul class="topo__horarios mary-hero-categories">
+          <li><span class="mono">01</span>Cabelo<em>corte · cor · tratamentos</em></li>
+          <li><span class="mono">02</span>Unhas<em>mãos · pés · gel</em></li>
+          <li><span class="mono">03</span>Olhar<em>sobrancelhas · henna</em></li>
+          <li><span class="mono">04</span>Beleza<em>maquiagem · depilação</em></li>
         </ul>
       </article>
     </div>
   </div>
 </section>
 
-<!-- Dobra: faixa de categorias, preserva o painel de vidro e a varredura da referência. -->
+      <!-- =========================================================================
+     PROVA · faixa de números logo abaixo do topo. Uma barra de vidro larga e
+     fina: ao entrar, uma linha de luz percorre a borda e acende cada número
+     na passagem (o contador começa e a mini leitura ao lado se desenha).
+     Os números finais já estão no HTML (sem JS, a faixa fica completa).
+     ========================================================================= -->
 <section class="prova" id="prova" data-dobra="prova" data-luz="50 4" data-luz-forca="0.35" aria-labelledby="prova-titulo">
-  <h2 class="sr-only" id="prova-titulo">Serviços de Mary Gomes</h2><span class="prova__fenda" aria-hidden="true"></span>
-  <div class="container"><div class="vidro spot prova__barra mary-proof"><span class="prova__scan" aria-hidden="true"><i></i></span><span class="prova__reflexo" aria-hidden="true"></span>
-    <ul class="mary-proof-list" data-cascata><li class="prova__item"><i data-icone="scissors"></i><span>Cabelo</span></li><li class="prova__item"><i data-icone="hand"></i><span>Unhas</span></li><li class="prova__item"><i data-icone="eye"></i><span>Sobrancelhas</span></li><li class="prova__item"><i data-icone="sparkle"></i><span>Depilação e beleza</span></li></ul>
-  </div></div>
-</section>
+  <h2 class="sr-only" id="prova-titulo">Serviços de Mary Gomes</h2>
+  <span class="prova__fenda" aria-hidden="true"></span>
 
-<!-- Dobra: experiência e escolha, ocupando o palco para o voo de scroll do hero. -->
-<section class="secao diagnostico mary-choice" id="diagnostico" data-dobra="diagnostico" data-luz="50 50" data-luz-b="14 84" data-luz-forca="0.65" aria-labelledby="escolha-titulo">
-  <div class="container mary-choice__grid"><header class="mary-choice__copy" data-reveal><p class="mary-kicker mono">COMO ESCOLHER</p><h2 class="titulo" id="escolha-titulo" data-split>Veja o trabalho. <span class="luz">Escolha o serviço.</span></h2><p class="lead">Confira os serviços e valores, escolha o que deseja fazer e chame Mary pelo WhatsApp. A mensagem já indica o serviço selecionado.</p><a class="btn btn--principal" href="#servicos"><span class="btn__rotulo">Escolher um serviço</span><i data-icone="arrow-right"></i></a></header>
-    <div class="vidro spot diagnostico__palco mary-choice__steps" data-reveal><p class="mary-kicker mono">SIMPLES ASSIM</p><ol><li><span class="mono">01</span><div><b>Veja os trabalhos</b><p>Fotos e vídeos do portfólio de Mary.</p></div></li><li><span class="mono">02</span><div><b>Escolha o serviço</b><p>Confira a lista e os valores informados.</p></div></li><li><span class="mono">03</span><div><b>Converse com Mary</b><p>O WhatsApp abre com sua escolha na mensagem.</p></div></li></ol></div>
+  <div class="container">
+    <div class="vidro spot prova__barra">
+      <span class="prova__scan" aria-hidden="true"><i></i></span>
+      <span class="prova__reflexo" aria-hidden="true"></span>
+
+      <ul class="prova__lista">
+        <li class="prova__item"><p class="prova__numero"><span class="prova__valor">Cabelo</span></p><div class="prova__lado"><p class="prova__rotulo">Serviços</p><p class="prova__sub mono">Corte, cor e cuidados</p></div></li>
+        <li class="prova__item"><p class="prova__numero"><span class="prova__valor">Unhas</span></p><div class="prova__lado"><p class="prova__rotulo">Mãos e pés</p><p class="prova__sub mono">Tradicional e gel</p></div></li>
+        <li class="prova__item"><p class="prova__numero"><span class="prova__valor">Olhar</span></p><div class="prova__lado"><p class="prova__rotulo">Sobrancelhas</p><p class="prova__sub mono">Design e henna</p></div></li>
+        <li class="prova__item"><p class="prova__numero"><span class="prova__valor">Beleza</span></p><div class="prova__lado"><p class="prova__rotulo">Depilação</p><p class="prova__sub mono">Buço e axilas</p></div></li>
+      </ul>
+    </div>
   </div>
 </section>
 
-<!-- Dobra: catálogo fiel à tabela de valores, com chamadas diretas por serviço. -->
-<section class="secao servicos mary-services" id="servicos" data-dobra="servicos" data-luz="84 20" data-luz-b="6 86" data-luz-forca="0.85" aria-labelledby="servicos-titulo">
-  <div class="container"><header class="mary-section-head" data-reveal><p class="mary-kicker mono">SERVIÇOS E VALORES</p><h2 class="titulo" id="servicos-titulo" data-split>O que você <span class="luz">procura hoje?</span></h2><p class="lead">Confira os valores informados. Onde aparece “a partir de”, esse é o preço inicial do serviço.</p></header>
-    <div class="mary-services-grid" data-cascata><article class="vidro spot mary-service-card" data-reveal>
-      <header class="mary-service-head"><span class="mary-service-icon"><i data-icone="scissors"></i></span><h3>Cabelos</h3><span class="mono mary-service-count">12</span></header>
-      <ul class="mary-service-list"><li class="mary-service-row"><a class="mary-service-link" data-wa="Olá, Mary! Quero agendar: Corte feminino." href="#"><span>Corte feminino</span><b>R$ 70,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li><li class="mary-service-row"><a class="mary-service-link" data-wa="Olá, Mary! Quero agendar: Escova progressiva." href="#"><span>Escova progressiva</span><b>A partir de R$ 130,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li><li class="mary-service-row"><a class="mary-service-link" data-wa="Olá, Mary! Quero agendar: Hidratação." href="#"><span>Hidratação</span><b>R$ 50,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li><li class="mary-service-row"><a class="mary-service-link" data-wa="Olá, Mary! Quero agendar: Escova." href="#"><span>Escova</span><b>A partir de R$ 45,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li><li class="mary-service-row"><a class="mary-service-link" data-wa="Olá, Mary! Quero agendar: Mechas no papel." href="#"><span>Mechas no papel</span><b>A partir de R$ 250,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li><li class="mary-service-row"><a class="mary-service-link" data-wa="Olá, Mary! Quero agendar: Luzes." href="#"><span>Luzes</span><b>A partir de R$ 200,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li><li class="mary-service-row"><a class="mary-service-link" data-wa="Olá, Mary! Quero agendar: Botox." href="#"><span>Botox</span><b>A partir de R$ 130,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li><li class="mary-service-row"><a class="mary-service-link" data-wa="Olá, Mary! Quero agendar: Reconstrução." href="#"><span>Reconstrução</span><b>A partir de R$ 60,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li><li class="mary-service-row"><a class="mary-service-link" data-wa="Olá, Mary! Quero agendar: Cauterização." href="#"><span>Cauterização</span><b>A partir de R$ 150,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li><li class="mary-service-row"><a class="mary-service-link" data-wa="Olá, Mary! Quero agendar: Coloração com a tinta da Mary." href="#"><span>Coloração com a tinta da Mary</span><b>R$ 70,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li><li class="mary-service-row"><a class="mary-service-link" data-wa="Olá, Mary! Quero agendar: Coloração com a tinta da cliente." href="#"><span>Coloração com a tinta da cliente</span><b>R$ 40,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li><li class="mary-service-row"><a class="mary-service-link" data-wa="Olá, Mary! Quero agendar: Banho de brilho com escova." href="#"><span>Banho de brilho com escova</span><b>A partir de R$ 80,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li></ul>
-      <a class="btn btn--vidro btn--pequeno" data-wa="Olá, Mary! Quero conversar sobre cabelos." href="#"><i data-icone="whatsapp"></i><span class="btn__rotulo">Agendar com a Mary</span></a>
-    </article><article class="vidro spot mary-service-card" data-reveal>
-      <header class="mary-service-head"><span class="mary-service-icon"><i data-icone="hand"></i></span><h3>Unhas e pés</h3><span class="mono mary-service-count">09</span></header>
-      <ul class="mary-service-list"><li class="mary-service-row"><a class="mary-service-link" data-wa="Olá, Mary! Quero agendar: Unha de gel, método F1." href="#"><span>Unha de gel, método F1</span><b>R$ 100,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li><li class="mary-service-row"><a class="mary-service-link" data-wa="Olá, Mary! Quero agendar: Unhas soft gel." href="#"><span>Unhas soft gel</span><b>R$ 130,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li><li class="mary-service-row"><a class="mary-service-link" data-wa="Olá, Mary! Quero agendar: Banho de gel." href="#"><span>Banho de gel</span><b>R$ 80,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li><li class="mary-service-row"><a class="mary-service-link" data-wa="Olá, Mary! Quero agendar: Mão tradicional." href="#"><span>Mão tradicional</span><b>R$ 30,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li><li class="mary-service-row"><a class="mary-service-link" data-wa="Olá, Mary! Quero agendar: Pé tradicional." href="#"><span>Pé tradicional</span><b>R$ 30,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li><li class="mary-service-row"><a class="mary-service-link" data-wa="Olá, Mary! Quero agendar: Gel tip." href="#"><span>Gel tip</span><b>R$ 110,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li><li class="mary-service-row"><a class="mary-service-link" data-wa="Olá, Mary! Quero agendar: Unha postiça." href="#"><span>Unha postiça</span><b>R$ 50,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li><li class="mary-service-row"><a class="mary-service-link" data-wa="Olá, Mary! Quero agendar: Speed tip gel." href="#"><span>Speed tip gel</span><b>R$ 120,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li><li class="mary-service-row"><a class="mary-service-link" data-wa="Olá, Mary! Quero agendar: Spa dos pés." href="#"><span>Spa dos pés</span><b>R$ 80,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li></ul>
-      <a class="btn btn--vidro btn--pequeno" data-wa="Olá, Mary! Quero conversar sobre unhas e pés." href="#"><i data-icone="whatsapp"></i><span class="btn__rotulo">Agendar com a Mary</span></a>
-    </article><article class="vidro spot mary-service-card" data-reveal>
-      <header class="mary-service-head"><span class="mary-service-icon"><i data-icone="eye"></i></span><h3>Sobrancelhas e depilação</h3><span class="mono mary-service-count">05</span></header>
-      <ul class="mary-service-list"><li class="mary-service-row"><a class="mary-service-link" data-wa="Olá, Mary! Quero agendar: Sobrancelha tradicional." href="#"><span>Sobrancelha tradicional</span><b>R$ 25,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li><li class="mary-service-row"><a class="mary-service-link" data-wa="Olá, Mary! Quero agendar: Design de sobrancelha com henna." href="#"><span>Design de sobrancelha com henna</span><b>R$ 40,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li><li class="mary-service-row"><a class="mary-service-link" data-wa="Olá, Mary! Quero agendar: Henna tradicional." href="#"><span>Henna tradicional</span><b>R$ 25,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li><li class="mary-service-row"><a class="mary-service-link" data-wa="Olá, Mary! Quero agendar: Depilação de buço." href="#"><span>Depilação de buço</span><b>R$ 30,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li><li class="mary-service-row"><a class="mary-service-link" data-wa="Olá, Mary! Quero agendar: Depilação de axilas." href="#"><span>Depilação de axilas</span><b>R$ 25,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li></ul>
-      <a class="btn btn--vidro btn--pequeno" data-wa="Olá, Mary! Quero conversar sobre sobrancelhas e depilação." href="#"><i data-icone="whatsapp"></i><span class="btn__rotulo">Agendar com a Mary</span></a>
-    </article><article class="vidro spot mary-service-card" data-reveal>
-      <header class="mary-service-head"><span class="mary-service-icon"><i data-icone="sparkle"></i></span><h3>Maquiagem</h3><span class="mono mary-service-count">01</span></header>
-      <ul class="mary-service-list"><li class="mary-service-row"><a class="mary-service-link" data-wa="Olá, Mary! Quero agendar: Maquiagem." href="#"><span>Maquiagem</span><b>Consulte a Mary</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li></ul>
-      <a class="btn btn--vidro btn--pequeno" data-wa="Olá, Mary! Quero conversar sobre maquiagem." href="#"><i data-icone="whatsapp"></i><span class="btn__rotulo">Agendar com a Mary</span></a>
-    </article></div>
-    <p class="mary-note">Quer saber mais sobre um serviço? Escolha uma opção ou fale diretamente com Mary.</p>
+      <!-- =========================================================================
+     DIAGNÓSTICO · cena presa no desktop (diagnostico.js): à esquerda o título
+     e as 4 etapas com trilho de progresso; à direita o painel "aparelho" com a
+     lente (tricoscopia.js) e uma camada por etapa. O painel começa idêntico ao
+     cartão do meio do topo, que viaja até aqui (topo.js) e é trocado por ele.
+     Celular/tablet: painel grudado (sticky) e as etapas rolando.
+     Sem JS de movimento: vira um relatório estático com as 4 camadas em ordem.
+     ========================================================================= -->
+<section class="secao diagnostico" id="diagnostico" data-dobra="diagnostico" data-luz="74 48" data-luz-b="10 84" data-luz-forca="0.85" aria-labelledby="diagnostico-titulo">
+  <div class="container diagnostico__grade">
+    <header class="diagnostico__cabeca">
+      <p class="diagnostico__sobre mono">Trabalhos e serviços</p>
+      <h2 class="titulo diagnostico__titulo" id="diagnostico-titulo" data-split>Veja os trabalhos. <span class="luz">Escolha seu cuidado.</span></h2>
+      <p class="lead diagnostico__lead">Conheça o que Mary faz, confira os valores e continue a conversa pelo WhatsApp.</p>
+    </header>
+    <div class="diagnostico__cena">
+      <div class="diagnostico__palco">
+        <article class="vidro diagnostico__painel" aria-label="Apresentação dos trabalhos e serviços de Mary Gomes">
+          <header class="diagnostico__cab"><span class="diagnostico__cab-icone" aria-hidden="true"><i data-icone="sparkle"></i></span><span><b>Mary Gomes</b><small class="mono">PORTFÓLIO E SERVIÇOS</small></span><span class="diagnostico__tag mono">Cabelo · Unhas</span></header>
+          <div class="diagnostico__lente">
+            <div class="diagnostico__visor" aria-hidden="true">
+              <canvas class="diagnostico__canvas diagnostico__canvas--topo"></canvas><canvas class="diagnostico__canvas diagnostico__canvas--amostra"></canvas>
+              <span class="diagnostico__mira diagnostico__mira--topo" style="--mx:34%;--my:38%"><i>Cabelo</i></span><span class="diagnostico__mira diagnostico__mira--topo" style="--mx:68%;--my:62%"><i>Unhas</i></span><span class="diagnostico__veu"></span>
+              <div class="diagnostico__hud mono"><span class="diagnostico__hud-etapa">ETAPA 01/04 · TRABALHOS</span><span class="diagnostico__hud-rec"><span class="diagnostico__hud-ponto"></span>MARY</span></div>
+            </div>
+            <div class="diagnostico__camada diagnostico__camada--conversa" data-camada="0">
+              <p class="diagnostico__camada-nome mono">01 · Trabalhos</p>
+              <div class="diagnostico__ficha"><div class="diagnostico__ficha-cab"><img class="diagnostico__avatar" src="/mary/mary-480.webp" alt="" width="480" height="600" loading="lazy" decoding="async" data-equipe-img><span class="diagnostico__ficha-quem"><b data-equipe-nome>Mary Gomes</b><small class="mono" data-equipe-papel>Profissional de beleza</small></span><span class="diagnostico__ficha-tag mono">PORTFÓLIO</span></div>
+                <ul class="diagnostico__respostas"><li class="diagnostico__resposta"><span class="diagnostico__pergunta mono">CABELO</span><b class="diagnostico__texto-resp">Veja fotos e vídeos</b><span class="diagnostico__ok" aria-hidden="true"><i data-icone="check"></i></span></li><li class="diagnostico__resposta"><span class="diagnostico__pergunta mono">UNHAS</span><b class="diagnostico__texto-resp">Confira os trabalhos</b><span class="diagnostico__ok" aria-hidden="true"><i data-icone="check"></i></span></li><li class="diagnostico__resposta"><span class="diagnostico__pergunta mono">BELEZA</span><b class="diagnostico__texto-resp">Conheça os serviços</b><span class="diagnostico__ok" aria-hidden="true"><i data-icone="check"></i></span></li></ul>
+              </div>
+            </div>
+            <div class="diagnostico__camada diagnostico__camada--leitura" data-camada="1">
+              <p class="diagnostico__camada-nome mono">02 · Serviços</p><div class="diagnostico__amostra" aria-hidden="true"><span class="diagnostico__varredura"><span></span></span><span class="diagnostico__mira diagnostico__mira--amostra" style="--mx:17%;--my:27%"><i>Cabelo</i></span><span class="diagnostico__mira diagnostico__mira--amostra" style="--mx:13%;--my:76%"><i>Unhas</i></span><span class="diagnostico__regua" style="--mx:33%;--my:53%"><span></span><i>Mary</i></span></div>
+              <div class="diagnostico__leituras"><p class="diagnostico__leituras-tit mono">SERVIÇOS DO SALÃO</p><dl><div class="diagnostico__leitura-linha"><dt class="mono">CABELO</dt><dd>Corte, cor e tratamentos</dd></div><div class="diagnostico__leitura-linha"><dt class="mono">UNHAS</dt><dd>Mãos e pés</dd></div><div class="diagnostico__leitura-linha"><dt class="mono">SOBRANCELHAS</dt><dd>Design e henna</dd></div><div class="diagnostico__leitura-linha"><dt class="mono">DEPILAÇÃO</dt><dd>Buço e axilas</dd></div></dl></div>
+            </div>
+            <div class="diagnostico__camada diagnostico__camada--protocolo" data-camada="2">
+              <p class="diagnostico__camada-nome mono">03 · Escolha</p><div class="diagnostico__plano"><img class="diagnostico__plano-foto" src="/mary/work-13.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" width="1200" height="1600" loading="lazy" decoding="async"><div class="diagnostico__plano-corpo"><header class="diagnostico__plano-cab"><b>Seu próximo passo</b><span class="mono">Escolha no seu tempo</span></header><ol class="diagnostico__etapas"><li class="diagnostico__etapa"><span class="diagnostico__etapa-ponto" aria-hidden="true"></span><span class="diagnostico__etapa-nome">Veja os trabalhos<small class="mono">PORTFÓLIO</small></span><span class="diagnostico__etapa-tempo mono">01</span></li><li class="diagnostico__etapa"><span class="diagnostico__etapa-ponto" aria-hidden="true"></span><span class="diagnostico__etapa-nome">Confira os serviços<small class="mono">VALORES</small></span><span class="diagnostico__etapa-tempo mono">02</span></li><li class="diagnostico__etapa"><span class="diagnostico__etapa-ponto" aria-hidden="true"></span><span class="diagnostico__etapa-nome">Escolha o que procura<small class="mono">SUA ESCOLHA</small></span><span class="diagnostico__etapa-tempo mono">03</span></li><li class="diagnostico__etapa"><span class="diagnostico__etapa-ponto" aria-hidden="true"></span><span class="diagnostico__etapa-nome">Fale com Mary<small class="mono">WHATSAPP</small></span><span class="diagnostico__etapa-tempo mono">04</span></li></ol></div></div>
+            </div>
+            <div class="diagnostico__camada diagnostico__camada--evolucao" data-camada="3"><p class="diagnostico__camada-nome mono">04 · WhatsApp</p><div class="diagnostico__evolucao"><div class="diagnostico__compara"><div class="diagnostico__compara-item"><span class="mono">TRABALHOS</span><p><b>Fotos e vídeos</b><em class="diagnostico__delta mono">Mary Gomes</em></p></div><div class="diagnostico__compara-item"><span class="mono">SERVIÇOS</span><p><b>Escolha e valores</b><em class="diagnostico__delta mono">na página</em></p></div></div><figure class="diagnostico__grafico"><div class="diagnostico__spark"><svg viewBox="0 0 300 100" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path class="diagnostico__spark-grade" d="M0 25.5H300M0 50.5H300M0 75.5H300"/><path class="diagnostico__spark-area" d="M6 50 L294 50 L294 100 L6 100 Z"/><path class="diagnostico__spark-linha" d="M6 50 L294 50"/></svg><span class="diagnostico__spark-ponto" style="--x:2%;--y:50%"></span><span class="diagnostico__spark-ponto" style="--x:26%;--y:50%"></span><span class="diagnostico__spark-ponto" style="--x:50%;--y:50%"></span><span class="diagnostico__spark-ponto" style="--x:74%;--y:50%"></span><span class="diagnostico__spark-ponto diagnostico__spark-ponto--fim" style="--x:98%;--y:50%"></span></div><figcaption class="diagnostico__eixo mono"><span>VER</span><span>ESCOLHER</span><span>CHAMAR</span><span>COMBINAR</span><span>PRONTO</span></figcaption><p class="diagnostico__legenda mono"><span class="diagnostico__legenda-a">Mary Gomes</span><span class="diagnostico__legenda-b">WhatsApp</span></p></figure></div></div>
+          </div>
+          <div class="diagnostico__metricas"><div class="leitura"><span class="leitura__rotulo">TRABALHOS</span><span class="leitura__valor">Cabelo e unhas</span></div><div class="leitura"><span class="leitura__rotulo">SERVIÇOS</span><span class="leitura__valor">Veja valores</span></div><div class="leitura"><span class="leitura__rotulo">CONTATO</span><span class="leitura__valor">WhatsApp</span></div></div>
+        </article>
+      </div>
+      <div class="diagnostico__roteiro"><span class="diagnostico__trilho" aria-hidden="true"><span class="diagnostico__trilho-luz"></span></span><ol class="diagnostico__passos" aria-label="Como escolher um serviço"><li class="diagnostico__passo" data-passo="0"><button class="diagnostico__passo-btn" type="button"><span class="diagnostico__passo-ponto" aria-hidden="true"></span><span class="diagnostico__passo-nome">Veja os trabalhos</span></button><p class="diagnostico__passo-txt">Conheça fotos e vídeos do portfólio.</p></li><li class="diagnostico__passo" data-passo="1"><button class="diagnostico__passo-btn" type="button"><span class="diagnostico__passo-ponto" aria-hidden="true"></span><span class="diagnostico__passo-nome">Confira os serviços</span></button><p class="diagnostico__passo-txt">Consulte os serviços e valores informados.</p></li><li class="diagnostico__passo" data-passo="2"><button class="diagnostico__passo-btn" type="button"><span class="diagnostico__passo-ponto" aria-hidden="true"></span><span class="diagnostico__passo-nome">Escolha o que procura</span></button><p class="diagnostico__passo-txt">Cada serviço tem seu próprio atalho.</p></li><li class="diagnostico__passo" data-passo="3"><button class="diagnostico__passo-btn" type="button"><span class="diagnostico__passo-ponto" aria-hidden="true"></span><span class="diagnostico__passo-nome">Converse com Mary</span></button><p class="diagnostico__passo-txt">A mensagem chega com o serviço escolhido.</p></li></ol></div>
+    </div>
   </div>
 </section>
 
-<!-- Dobra: portfólio com o acervo recebido. Filtros por categoria e controles de vídeo. -->
-<section class="secao tons mary-portfolio" id="trabalhos" data-dobra="tons" data-luz="70 44" data-luz-b="16 80" data-luz-forca="0.7" aria-labelledby="trabalhos-titulo">
-  <div class="container"><header class="mary-section-head" data-reveal><p class="mary-kicker mono">PORTFÓLIO</p><h2 class="titulo" id="trabalhos-titulo" data-split>Beleza vista <span class="luz">de perto.</span></h2><p class="lead">Alguns registros de cabelos e unhas feitos no salão.</p></header>
-    <div class="mary-gallery-controls" role="group" aria-label="Filtrar trabalhos"><button type="button" class="mary-filter is-active" data-filter="todos" aria-pressed="true">Todos</button><button type="button" class="mary-filter" data-filter="cabelo" aria-pressed="false">Cabelo</button><button type="button" class="mary-filter" data-filter="unhas" aria-pressed="false">Unhas</button></div>
-    <div class="mary-gallery" data-cascata><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-01.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-02.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-03.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-04.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-05.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-06.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-07.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-08.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-09.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-10.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-11.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-12.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-13.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-14.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-15.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-16.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-17.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-18.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-19.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-20.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-21.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-22.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-23.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-24.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-25.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-26.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-27.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-28.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-29.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-30.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-31.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-32.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-33.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-34.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-35.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-36.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-37.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-38.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-39.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-40.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="unhas" data-reveal><img src="/mary/work-41.jpeg" alt="Trabalho de unhas do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="unhas" data-reveal><img src="/mary/work-42.jpeg" alt="Trabalho de unhas do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="unhas" data-reveal><img src="/mary/work-43.jpeg" alt="Trabalho de unhas do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="unhas" data-reveal><img src="/mary/work-44.jpeg" alt="Trabalho de unhas do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="unhas" data-reveal><img src="/mary/work-45.jpeg" alt="Trabalho de unhas do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="unhas" data-reveal><img src="/mary/work-46.jpeg" alt="Trabalho de unhas do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="unhas" data-reveal><img src="/mary/work-47.jpeg" alt="Trabalho de unhas do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="unhas" data-reveal><img src="/mary/work-48.jpeg" alt="Trabalho de unhas do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="unhas" data-reveal><img src="/mary/work-49.jpeg" alt="Trabalho de unhas do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="unhas" data-reveal><img src="/mary/work-50.jpeg" alt="Trabalho de unhas do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-51.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-52.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-53.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-54.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-55.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-56.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-57.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-58.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-59.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-60.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-61.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-62.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-63.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-64.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-65.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async"></figure></div>
-    <div class="mary-videos" aria-label="Vídeos do portfólio"><figure class="mary-video" data-reveal><video controls playsinline preload="metadata" poster="/mary/video-01-poster.jpg"><source src="/mary/video-01.mp4" type="video/mp4">Seu navegador não reproduz este vídeo.</video></figure><figure class="mary-video" data-reveal><video controls playsinline preload="metadata" poster="/mary/video-02-poster.jpg"><source src="/mary/video-02.mp4" type="video/mp4">Seu navegador não reproduz este vídeo.</video></figure><figure class="mary-video" data-reveal><video controls playsinline preload="metadata"><source src="/mary/video-03.mp4" type="video/mp4">Seu navegador não reproduz este vídeo.</video></figure><figure class="mary-video" data-reveal><video controls playsinline preload="metadata" poster="/mary/video-04-poster.jpg"><source src="/mary/video-04.mp4" type="video/mp4">Seu navegador não reproduz este vídeo.</video></figure></div>
-    <a class="btn btn--vidro mary-social" href="https://www.instagram.com/invites/contact/?utm_content=em5es4e&amp;dlrf=1l829qe1pp3n7" target="_blank" rel="noopener"><i data-icone="instagram"></i><span class="btn__rotulo">Ver Instagram</span></a>
+      <!-- =========================================================================
+     SERVIÇOS · bento de vidro com os 6 serviços (SERVICOS, config.js).
+     Grade de 12 colunas com ritmo: corte alto à esquerda, coloração larga,
+     tratamento e escova médios, unhas larga e maquiagem média na base.
+     Cada célula: foto real tratada para o escuro, um micro controle que
+     funciona de verdade e "Agendar este serviço" (preencherAgenda).
+     Nome, resumo, duração e preço são sincronizados com config.js no JS; o
+     texto abaixo é o mesmo, para a página ficar completa sem JS.
+     ========================================================================= -->
+<section class="secao servicos" id="servicos" data-dobra="servicos" data-luz="84 20" data-luz-b="6 86" data-luz-forca="0.85" aria-labelledby="servicos-titulo">
+  <div class="container">
+    <header class="servicos__cabeca">
+      <h2 class="titulo servicos__titulo" id="servicos-titulo" data-split>Serviços para <span class="luz">cuidar de você.</span></h2>
+      <div class="servicos__intro" data-reveal>
+        <p class="lead servicos__lead">Explore as opções de cabelo, unhas e beleza. Cada serviço abre uma conversa com Mary pelo WhatsApp.</p>
+        <p class="servicos__dica mono"><span class="servicos__dica-ponto" aria-hidden="true"></span>Escolha uma categoria para ver os serviços e valores.</p>
+      </div>
+    </header>
+
+    <ul class="servicos__grade">
+      <!-- ===================== 01 · CORTE (alto) ===================== -->
+      <li class="servicos__item servicos__item--corte" data-servico="corte">
+        <article class="vidro spot servicos__celula servicos__celula--alta" aria-labelledby="servicos-nome-corte">
+          <div class="servicos__midia servicos__midia--corte">
+            <img class="servicos__foto" src="/mary/work-01.jpeg" width="738" height="1600" alt="Trabalho de corte feminino do portfólio de Mary Gomes." loading="lazy" decoding="async" />
+            <!-- Linha de corte: arraste para escolher quanto tirar -->
+            <div class="servicos__corte" data-widget="corte">
+              <div class="servicos__regua" aria-hidden="true">
+                <span style="--p: 0.25">5</span><span style="--p: 0.5">10</span><span style="--p: 0.75">15</span><em>cm</em>
+              </div>
+              <div class="servicos__corte-sobra" aria-hidden="true"></div>
+              <div class="servicos__corte-guia">
+                <span class="servicos__corte-linha" aria-hidden="true"></span>
+                <span class="servicos__corte-rotulo mono" aria-hidden="true">explore <b data-corte-tirar>+</b></span>
+                <span
+                  class="servicos__corte-alca"
+                  role="slider"
+                  tabindex="0"
+                  aria-label="Quanto cortar"
+                  aria-orientation="vertical"
+                  aria-valuemin="1"
+                  aria-valuemax="12"
+                  aria-valuenow="4"
+                  aria-valuetext="Tirar 4 centímetros"
+                  ><i data-servicos-icone="arrows-vertical"></i
+                ></span>
+              </div>
+              <span class="servicos__chip servicos__chip--corte mono" aria-hidden="true">imagem de referência</span>
+            </div>
+          </div>
+          <div class="servicos__info">
+            <header class="servicos__cab">
+              <span class="servicos__icone"><i data-icone="scissors"></i></span>
+              <h3 class="servicos__nome" id="servicos-nome-corte" data-campo="nome">Corte e visagismo</h3>
+              <span class="servicos__indice mono" aria-hidden="true">01</span>
+            </header>
+            <p class="servicos__resumo" data-campo="resumo">Corte desenhado para o formato do rosto e a textura do fio.</p>
+            <div class="servicos__rodape mary-prices"><ul class="mary-price-list"><li><a class="mary-price" data-wa="Olá, Mary! Quero agendar: Corte feminino." href="#"><span>Corte feminino</span><b>R$ 70,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li></ul><a class="btn btn--vidro btn--pequeno servicos__agendar" data-wa="Olá, Mary! Quero conversar sobre corte feminino." href="#"><i data-icone="whatsapp"></i><span class="btn__rotulo">Agendar com a Mary</span></a></div>
+          </div>
+        </article>
+      </li>
+
+      <!-- ===================== 02 · COLORAÇÃO (larga) ===================== -->
+      <li class="servicos__item servicos__item--coloracao" data-servico="coloracao">
+        <article class="vidro spot servicos__celula servicos__celula--larga" aria-labelledby="servicos-nome-coloracao">
+          <div class="servicos__midia servicos__midia--coloracao">
+            <img class="servicos__foto" src="/mary/work-60.jpeg" width="738" height="1600" alt="Trabalho de coloração do portfólio de Mary Gomes." loading="lazy" decoding="async" />
+            <span class="servicos__chip servicos__chip--canto mono" aria-hidden="true" data-cor-formula>fórmula 6.0</span>
+          </div>
+          <div class="servicos__info">
+            <header class="servicos__cab">
+              <span class="servicos__icone"><i data-icone="palette"></i></span>
+              <h3 class="servicos__nome" id="servicos-nome-coloracao" data-campo="nome">Coloração</h3>
+              <span class="servicos__indice mono" aria-hidden="true">02</span>
+            </header>
+            <p class="servicos__resumo" data-campo="resumo">Morena iluminada, loiros, ruivos e cobertura de brancos com fórmula registrada.</p>
+
+            <!-- Trilho de nível 1 a 10: arraste ou toque num nível -->
+            <div class="servicos__cor" data-widget="coloracao">
+              <div class="servicos__cor-topo">
+                <span class="servicos__amostra" aria-hidden="true"></span>
+                <div class="servicos__cor-leitura">
+                  <span class="leitura__rotulo">nível escolhido</span>
+                  <span class="servicos__cor-nivel"><b class="mono" data-cor-num>6</b><span data-cor-nome>Louro escuro</span></span>
+                  <span class="servicos__cor-delta mono" data-cor-delta>base 4 · clarear 2 níveis</span>
+                </div>
+              </div>
+              <div
+                class="servicos__trilho"
+                role="slider"
+                tabindex="0"
+                aria-label="Nível da cor, de 1 a 10"
+                aria-valuemin="1"
+                aria-valuemax="10"
+                aria-valuenow="6"
+                aria-valuetext="Nível 6, louro escuro"
+              >
+                <span class="servicos__trilho-faixa" aria-hidden="true">
+                  <i style="--c: #120d0b"></i><i style="--c: #21170f"></i><i style="--c: #322218"></i><i style="--c: #44301f"></i><i style="--c: #5d3f28"></i><i style="--c: #7b5434"></i><i style="--c: #9a6d44"></i><i style="--c: #ba8f5e"></i><i style="--c: #d5b27f"></i><i style="--c: #ead4a9"></i>
+                </span>
+                <span class="servicos__trilho-base" aria-hidden="true"></span>
+                <span class="servicos__trilho-cursor" aria-hidden="true"></span>
+              </div>
+              <div class="servicos__trilho-numeros mono" aria-hidden="true">
+                <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+              </div>
+            </div>
+
+            <div class="servicos__rodape mary-prices"><ul class="mary-price-list"><li><a class="mary-price" data-wa="Olá, Mary! Quero agendar: Coloração com a tinta de Mary." href="#"><span>Coloração com a tinta de Mary</span><b>R$ 70,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li><li><a class="mary-price" data-wa="Olá, Mary! Quero agendar: Coloração com a tinta da cliente." href="#"><span>Coloração com a tinta da cliente</span><b>R$ 40,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li><li><a class="mary-price" data-wa="Olá, Mary! Quero agendar: Mechas no papel." href="#"><span>Mechas no papel</span><b>A partir de R$ 250,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li><li><a class="mary-price" data-wa="Olá, Mary! Quero agendar: Luzes." href="#"><span>Luzes</span><b>A partir de R$ 200,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li></ul><a class="btn btn--vidro btn--pequeno servicos__agendar" data-wa="Olá, Mary! Quero conversar sobre coloração e mechas." href="#"><i data-icone="whatsapp"></i><span class="btn__rotulo">Agendar com a Mary</span></a></div>
+          </div>
+        </article>
+      </li>
+
+      <!-- ===================== 03 · TRATAMENTOS (média) ===================== -->
+      <li class="servicos__item servicos__item--tratamento" data-servico="tratamento">
+        <article class="vidro spot servicos__celula" aria-labelledby="servicos-nome-tratamento">
+          <div class="servicos__midia servicos__midia--tratamento">
+            <img class="servicos__foto" src="/mary/work-13.jpeg" width="738" height="1600" alt="Trabalho de cabelo do portfólio de Mary Gomes." loading="lazy" decoding="async" />
+            <!-- Anel de hidratação: antes e depois do protocolo -->
+            <div class="servicos__hidra" data-widget="tratamento">
+              <div class="servicos__anel">
+                <svg viewBox="0 0 100 100" aria-hidden="true" focusable="false">
+                  <circle class="servicos__anel-trilho" cx="50" cy="50" r="42" />
+                  <circle class="servicos__anel-prog" cx="50" cy="50" r="42" pathLength="100" stroke-dasharray="100" stroke-dashoffset="6" />
+                  <g class="servicos__anel-antes" transform="rotate(219.6 50 50)"><circle cx="92" cy="50" r="3.6" /></g>
+                </svg>
+                <p class="servicos__anel-centro">
+                  <span class="servicos__anel-num" aria-hidden="true"><b data-hidra-valor>94</b><small>%</small></span>
+                </p>
+              </div>
+              <div class="servicos__hidra-lado">
+                <span class="servicos__hidra-rotulo mono">hidratação do fio</span>
+                <div class="servicos__alternar" role="group" aria-label="Explorar efeito visual">
+                  <button type="button" aria-pressed="false" data-hidra="antes">Ver 1</button>
+                  <button type="button" aria-pressed="true" data-hidra="depois">Ver 2</button>
+                </div>
+                <p class="servicos__hidra-delta mono" aria-hidden="true" data-hidra-delta>UM EFEITO VISUAL</p>
+              </div>
+            </div>
+          </div>
+          <div class="servicos__info">
+            <header class="servicos__cab">
+              <span class="servicos__icone"><i data-icone="drop"></i></span>
+              <h3 class="servicos__nome" id="servicos-nome-tratamento" data-campo="nome">Tratamentos e reconstrução</h3>
+              <span class="servicos__indice mono" aria-hidden="true">03</span>
+            </header>
+            <p class="servicos__resumo" data-campo="resumo">Escova progressiva, hidratação, botox, reconstrução e cauterização.</p>
+            <div class="servicos__rodape mary-prices"><ul class="mary-price-list"><li><a class="mary-price" data-wa="Olá, Mary! Quero agendar: Escova progressiva." href="#"><span>Escova progressiva</span><b>A partir de R$ 130,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li><li><a class="mary-price" data-wa="Olá, Mary! Quero agendar: Hidratação." href="#"><span>Hidratação</span><b>R$ 50,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li><li><a class="mary-price" data-wa="Olá, Mary! Quero agendar: Botox." href="#"><span>Botox</span><b>A partir de R$ 130,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li><li><a class="mary-price" data-wa="Olá, Mary! Quero agendar: Reconstrução." href="#"><span>Reconstrução</span><b>A partir de R$ 60,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li><li><a class="mary-price" data-wa="Olá, Mary! Quero agendar: Cauterização." href="#"><span>Cauterização</span><b>A partir de R$ 150,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li></ul><a class="btn btn--vidro btn--pequeno servicos__agendar" data-wa="Olá, Mary! Quero conversar sobre tratamentos para cabelo." href="#"><i data-icone="whatsapp"></i><span class="btn__rotulo">Agendar com a Mary</span></a></div>
+          </div>
+        </article>
+      </li>
+
+      <!-- ===================== 04 · ESCOVA (estreita) ===================== -->
+      <li class="servicos__item servicos__item--escova" data-servico="escova">
+        <article class="vidro spot servicos__celula" aria-labelledby="servicos-nome-escova">
+          <div class="servicos__midia servicos__midia--escova">
+            <img class="servicos__foto" src="/mary/work-25.jpeg" width="738" height="1600" alt="Trabalho de escova do portfólio de Mary Gomes." loading="lazy" decoding="async" />
+            <!-- Linhas de vento: alternam entre escova lisa e ondas -->
+            <div class="servicos__vento" data-widget="escova">
+              <svg class="servicos__vento-linhas" viewBox="0 0 300 160" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+                <defs>
+                  <linearGradient id="servicos-vento-grad" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="300" y2="0">
+                    <stop offset="0" style="stop-color: #fff; stop-opacity: 0" />
+                    <stop offset="0.42" style="stop-color: #fff; stop-opacity: 1" />
+                    <stop offset="0.75" style="stop-color: var(--acc); stop-opacity: 0.85" />
+                    <stop offset="1" style="stop-color: var(--acc); stop-opacity: 0" />
+                  </linearGradient>
+                </defs>
+                <path class="servicos__vento-fio" pathLength="300" d="M-10 34 C 40 34, 90 34, 140 34 S 240 34, 310 34" />
+                <path class="servicos__vento-fio" pathLength="300" d="M-10 58 C 40 58, 90 58, 140 58 S 240 58, 310 58" />
+                <path class="servicos__vento-fio" pathLength="300" d="M-10 82 C 40 82, 90 82, 140 82 S 240 82, 310 82" />
+                <path class="servicos__vento-fio" pathLength="300" d="M-10 106 C 40 106, 90 106, 140 106 S 240 106, 310 106" />
+                <path class="servicos__vento-fio" pathLength="300" d="M-10 130 C 40 130, 90 130, 140 130 S 240 130, 310 130" />
+              </svg>
+              <div class="servicos__alternar servicos__alternar--vento" role="group" aria-label="Acabamento da escova">
+                <button type="button" aria-pressed="true" data-vento="lisa">Lisa</button>
+                <button type="button" aria-pressed="false" data-vento="ondas">Ondas</button>
+              </div>
+            </div>
+          </div>
+          <div class="servicos__info">
+            <header class="servicos__cab">
+              <span class="servicos__icone"><i data-icone="wind"></i></span>
+              <h3 class="servicos__nome" id="servicos-nome-escova" data-campo="nome">Escova e penteados</h3>
+              <span class="servicos__indice mono" aria-hidden="true">04</span>
+            </header>
+            <p class="servicos__resumo" data-campo="resumo">Escova modelada, ondas e penteados para eventos e noivas.</p>
+            <div class="servicos__rodape mary-prices"><ul class="mary-price-list"><li><a class="mary-price" data-wa="Olá, Mary! Quero agendar: Escova." href="#"><span>Escova</span><b>A partir de R$ 45,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li><li><a class="mary-price" data-wa="Olá, Mary! Quero agendar: Banho de brilho com escova." href="#"><span>Banho de brilho com escova</span><b>A partir de R$ 80,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li></ul><a class="btn btn--vidro btn--pequeno servicos__agendar" data-wa="Olá, Mary! Quero conversar sobre escova e banho de brilho." href="#"><i data-icone="whatsapp"></i><span class="btn__rotulo">Agendar com a Mary</span></a></div>
+          </div>
+        </article>
+      </li>
+
+      <!-- ===================== 05 · UNHAS (larga) ===================== -->
+      <li class="servicos__item servicos__item--unhas" data-servico="unhas">
+        <article class="vidro spot servicos__celula servicos__celula--larga" aria-labelledby="servicos-nome-unhas">
+          <div class="servicos__midia servicos__midia--unhas">
+            <img class="servicos__foto" src="/mary/work-47.jpeg" width="1488" height="942" alt="Trabalho de unhas do portfólio de Mary Gomes." loading="lazy" decoding="async" />
+          </div>
+          <div class="servicos__info">
+            <header class="servicos__cab">
+              <span class="servicos__icone"><i data-icone="hand"></i></span>
+              <h3 class="servicos__nome" id="servicos-nome-unhas" data-campo="nome">Unhas e spa das mãos</h3>
+              <span class="servicos__indice mono" aria-hidden="true">05</span>
+            </header>
+            <p class="servicos__resumo" data-campo="resumo">Manicure, esmaltação em gel e spa com hidratação profunda.</p>
+
+            <!-- Paleta de esmaltes: a cor escolhida "pinta" as unhas -->
+            <div class="servicos__unhas" data-widget="unhas">
+              <div class="servicos__unhas-palco" aria-hidden="true">
+                <div class="servicos__unhas-previa">
+                  <span class="servicos__unha"><span class="servicos__unha-tinta"></span></span>
+                  <span class="servicos__unha"><span class="servicos__unha-tinta"></span></span>
+                  <span class="servicos__unha"><span class="servicos__unha-tinta"></span></span>
+                  <span class="servicos__unha"><span class="servicos__unha-tinta"></span></span>
+                  <span class="servicos__unha"><span class="servicos__unha-tinta"></span></span>
+                </div>
+              </div>
+              <fieldset class="servicos__paleta">
+                <legend class="servicos__paleta-legenda">
+                  <span class="leitura__rotulo">esmalte em gel</span>
+                  <b class="servicos__paleta-nome" data-unhas-nome>Bordô noite</b>
+                </legend>
+                <div class="servicos__paleta-cores">
+                  <label class="servicos__esmalte servicos__esmalte--tom" style="--esmalte: var(--acc)">
+                    <input class="sr-only" type="radio" name="servicos-esmalte" value="tom" data-nome="Rosé HALO" data-esmalte-tom />
+                    <span class="servicos__esmalte-gota" aria-hidden="true"></span>
+                    <span class="sr-only" data-esmalte-tom-nome>Rosé HALO, a cor do seu tom</span>
+                  </label>
+                  <label class="servicos__esmalte" style="--esmalte: #5e1422">
+                    <input class="sr-only" type="radio" name="servicos-esmalte" value="bordo" data-nome="Bordô noite" checked />
+                    <span class="servicos__esmalte-gota" aria-hidden="true"></span>
+                    <span class="sr-only">Bordô noite</span>
+                  </label>
+                  <label class="servicos__esmalte" style="--esmalte: #b3192e">
+                    <input class="sr-only" type="radio" name="servicos-esmalte" value="vermelho" data-nome="Vermelho clássico" />
+                    <span class="servicos__esmalte-gota" aria-hidden="true"></span>
+                    <span class="sr-only">Vermelho clássico</span>
+                  </label>
+                  <label class="servicos__esmalte" style="--esmalte: #d6a596">
+                    <input class="sr-only" type="radio" name="servicos-esmalte" value="nude" data-nome="Nude rosado" />
+                    <span class="servicos__esmalte-gota" aria-hidden="true"></span>
+                    <span class="sr-only">Nude rosado</span>
+                  </label>
+                  <label class="servicos__esmalte" style="--esmalte: #4a2b22">
+                    <input class="sr-only" type="radio" name="servicos-esmalte" value="cafe" data-nome="Café" />
+                    <span class="servicos__esmalte-gota" aria-hidden="true"></span>
+                    <span class="sr-only">Café</span>
+                  </label>
+                  <label class="servicos__esmalte" style="--esmalte: #efe6dc">
+                    <input class="sr-only" type="radio" name="servicos-esmalte" value="leite" data-nome="Branco leite" />
+                    <span class="servicos__esmalte-gota" aria-hidden="true"></span>
+                    <span class="sr-only">Branco leite</span>
+                  </label>
+                </div>
+              </fieldset>
+            </div>
+
+            <div class="servicos__rodape mary-prices"><ul class="mary-price-list"><li><a class="mary-price" data-wa="Olá, Mary! Quero agendar: Unha de gel, método F1." href="#"><span>Unha de gel, método F1</span><b>R$ 100,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li><li><a class="mary-price" data-wa="Olá, Mary! Quero agendar: Unhas soft gel." href="#"><span>Unhas soft gel</span><b>R$ 130,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li><li><a class="mary-price" data-wa="Olá, Mary! Quero agendar: Banho de gel." href="#"><span>Banho de gel</span><b>R$ 80,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li><li><a class="mary-price" data-wa="Olá, Mary! Quero agendar: Mão tradicional." href="#"><span>Mão tradicional</span><b>R$ 30,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li><li><a class="mary-price" data-wa="Olá, Mary! Quero agendar: Pé tradicional." href="#"><span>Pé tradicional</span><b>R$ 30,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li><li><a class="mary-price" data-wa="Olá, Mary! Quero agendar: Gel tip." href="#"><span>Gel tip</span><b>R$ 110,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li><li><a class="mary-price" data-wa="Olá, Mary! Quero agendar: Unha postiça." href="#"><span>Unha postiça</span><b>R$ 50,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li><li><a class="mary-price" data-wa="Olá, Mary! Quero agendar: Speed tip gel." href="#"><span>Speed tip gel</span><b>R$ 120,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li><li><a class="mary-price" data-wa="Olá, Mary! Quero agendar: Spa dos pés." href="#"><span>Spa dos pés</span><b>R$ 80,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li></ul><a class="btn btn--vidro btn--pequeno servicos__agendar" data-wa="Olá, Mary! Quero conversar sobre unhas e pés." href="#"><i data-icone="whatsapp"></i><span class="btn__rotulo">Agendar com a Mary</span></a></div>
+          </div>
+        </article>
+      </li>
+
+      <!-- ===================== 06 · MAQUIAGEM (média) ===================== -->
+      <li class="servicos__item servicos__item--maquiagem" data-servico="maquiagem">
+        <article class="vidro spot servicos__celula" aria-labelledby="servicos-nome-maquiagem">
+          <div class="servicos__midia servicos__midia--maquiagem">
+            <img
+              class="servicos__foto"
+              src="/assets/servico-maquiagem-800-CPu0FhM5.webp"
+              srcset="/assets/servico-maquiagem-480-BKPxQz1P.webp 480w, /assets/servico-maquiagem-800-CPu0FhM5.webp 800w, /assets/servico-maquiagem-1200-BXGn_neX.webp 1200w"
+              sizes="(min-width: 1024px) 500px, (min-width: 768px) 46vw, 92vw"
+              width="800"
+              height="1200"
+              alt="Maquiadora aplica sombra com pincel na pálpebra da cliente"
+              loading="lazy"
+              decoding="async"
+            />
+            <!-- Antes e depois de intensidade: arraste a divisória -->
+            <div class="servicos__comparar" data-widget="maquiagem">
+              <div class="servicos__comparar-natural" aria-hidden="true">
+                <img
+                  src="/assets/servico-maquiagem-800-CPu0FhM5.webp"
+                  srcset="/assets/servico-maquiagem-480-BKPxQz1P.webp 480w, /assets/servico-maquiagem-800-CPu0FhM5.webp 800w, /assets/servico-maquiagem-1200-BXGn_neX.webp 1200w"
+                  sizes="(min-width: 1024px) 500px, (min-width: 768px) 46vw, 92vw"
+                  width="800"
+                  height="1200"
+                  alt=""
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <span class="servicos__comparar-tag servicos__comparar-tag--a mono" aria-hidden="true">Natural</span>
+              <span class="servicos__comparar-tag servicos__comparar-tag--b mono" aria-hidden="true">Noite</span>
+              <span class="servicos__comparar-guia">
+              <span
+                class="servicos__comparar-divisor"
+                role="slider"
+                tabindex="0"
+                aria-label="Comparar intensidade da maquiagem, de natural a noite"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                aria-valuenow="50"
+                aria-valuetext="Metade natural, metade noite"
+                ><span class="servicos__comparar-alca"><i data-servicos-icone="arrows-horizontal"></i></span
+              ></span>
+              </span>
+            </div>
+          </div>
+          <div class="servicos__info">
+            <header class="servicos__cab">
+              <span class="servicos__icone"><i data-icone="eye"></i></span>
+              <h3 class="servicos__nome" id="servicos-nome-maquiagem" data-campo="nome">Maquiagem e olhar</h3>
+              <span class="servicos__indice mono" aria-hidden="true">06</span>
+            </header>
+            <p class="servicos__resumo" data-campo="resumo">Maquiagem social, design de sobrancelhas e lifting de cílios.</p>
+            <div class="servicos__rodape mary-prices"><ul class="mary-price-list"><li><a class="mary-price" data-wa="Olá, Mary! Quero agendar: Sobrancelha tradicional." href="#"><span>Sobrancelha tradicional</span><b>R$ 25,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li><li><a class="mary-price" data-wa="Olá, Mary! Quero agendar: Design de sobrancelha com henna." href="#"><span>Design de sobrancelha com henna</span><b>R$ 40,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li><li><a class="mary-price" data-wa="Olá, Mary! Quero agendar: Henna tradicional." href="#"><span>Henna tradicional</span><b>R$ 25,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li><li><a class="mary-price" data-wa="Olá, Mary! Quero agendar: Depilação de buço." href="#"><span>Depilação de buço</span><b>R$ 30,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li><li><a class="mary-price" data-wa="Olá, Mary! Quero agendar: Depilação de axilas." href="#"><span>Depilação de axilas</span><b>R$ 25,00</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li><li><a class="mary-price" data-wa="Olá, Mary! Quero agendar: Maquiagem." href="#"><span>Maquiagem</span><b>Consulte a Mary</b><i data-icone="arrow-up-right" aria-hidden="true"></i></a></li></ul><a class="btn btn--vidro btn--pequeno servicos__agendar" data-wa="Olá, Mary! Quero conversar sobre sobrancelhas, depilação e maquiagem." href="#"><i data-icone="whatsapp"></i><span class="btn__rotulo">Agendar com a Mary</span></a></div>
+          </div>
+        </article>
+      </li>
+    </ul>
   </div>
 </section>
+
+      <!-- =========================================================================
+     TONS · simulador de cor. Três colunas como um configurador: a lista de
+     tons (grupo de rádio), o palco de foto (vidro 4:5) e a fórmula com o CTA.
+     Escolher um tom troca a foto com uma onda líquida que nasce da pílula e
+     chama definirTom(): a página inteira assume o acento do tom.
+     Pílulas e valores são montados por tons.js a partir de TONS (config.js);
+     o HTML abaixo é o esqueleto (e o estado inicial sem JS).
+     ========================================================================= -->
+<section class="secao tons" id="tons" data-dobra="tons" data-luz="70 44" data-luz-b="16 80" data-luz-forca="0.9" aria-labelledby="tons-titulo">
+  <div class="container">
+    <header class="tons__cabeca">
+      <h2 class="titulo tons__titulo" id="tons-titulo" data-split>Trabalhos de beleza <span class="luz">do portfólio de Mary.</span></h2>
+      <p class="lead tons__lead" data-reveal data-reveal-delay="0.15">
+        Veja referências do portfólio e escolha o serviço que deseja conversar com Mary.
+      </p>
+    </header>
+
+    <div class="tons__config">
+      <!-- 1. Tons (grupo de rádio: setas trocam, Home/End vão às pontas) -->
+      <div class="tons__escolha" data-reveal>
+        <div class="tons__escolha-cab">
+          <span class="tons__rotulo" id="tons-rotulo">Escolha uma referência</span>
+          <span class="tons__estado mono" aria-hidden="true">
+            <span class="tons__estado-demo"><span class="tons__estado-ponto"></span>portfólio</span>
+            <span class="tons__estado-ok"><i data-icone="check"></i>selecionado</span>
+          </span>
+        </div>
+        <div class="tons__lista" role="radiogroup" aria-labelledby="tons-rotulo"></div>
+
+        <div class="tons__aviso">
+          <p class="tons__aviso-txt">Escolha uma foto como referência para conversar com Mary.</p>
+          <ul class="tons__amostras" aria-hidden="true">
+            <li><span class="tons__amostra tons__amostra--feixe"></span>feixe</li>
+            <li><span class="tons__amostra tons__amostra--brilho"></span>brilhos</li>
+            <li><span class="tons__amostra tons__amostra--botao"></span>botões</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- 2. Palco: duas camadas de foto (a nova entra por cima com clip-path) -->
+      <figure class="tons__palco-wrap">
+        <div class="tons__halo" aria-hidden="true"></div>
+        <div class="tons__anel" aria-hidden="true">
+          <div class="tons__feixe"><span class="tons__clarao"></span></div>
+        </div>
+
+        <div class="vidro tons__palco" data-tilt="3">
+          <div class="tons__midia">
+            <div class="tons__camada is-frente">
+              <img class="tons__foto" src="/mary/work-60.jpeg" width="738" height="1600" alt="Trabalho de cabelo do portfólio de Mary Gomes" loading="lazy" decoding="async" />
+            </div>
+            <div class="tons__camada" aria-hidden="true">
+              <img class="tons__foto" alt="" width="800" height="1000" decoding="async" />
+            </div>
+            <span class="tons__tinta" aria-hidden="true"></span>
+            <svg class="tons__onda" aria-hidden="true" preserveAspectRatio="none">
+              <path class="tons__onda-brilho" d="" />
+              <path class="tons__onda-linha" d="" />
+            </svg>
+            <span class="tons__varredura" aria-hidden="true"></span>
+
+            <!-- HUD da simulação -->
+            <div class="tons__hud" aria-hidden="true">
+              <span class="tons__canto tons__canto--a"></span>
+              <span class="tons__canto tons__canto--b"></span>
+              <span class="tons__canto tons__canto--c"></span>
+              <span class="tons__canto tons__canto--d"></span>
+              <span class="tons__hud-tag mono"><span class="tons__hud-ponto"></span>PORTFÓLIO</span>
+              <span class="tons__contador mono"><b class="tons__contador-n">01</b>/<span class="tons__contador-t">05</span></span>
+              <span class="tons__mira"><i class="mono">NV <b class="tons__mira-nv">5.0</b></i></span>
+            </div>
+          </div>
+
+          <div class="tons__barra" aria-hidden="true">
+            <span class="tons__barra-bolinha"></span>
+            <span class="tons__barra-txt">
+              <b class="tons__barra-nome">Referência do portfólio</b>
+              <small class="tons__barra-reflexo mono">Trabalho de cabelo</small>
+            </span>
+          </div>
+        </div>
+
+        <!-- Chips flutuantes (decorativos, só em telas largas) -->
+        <div class="chip tons__chip tons__chip--a" aria-hidden="true" data-prof="1">
+          <span class="chip__icone"><i data-icone="palette"></i></span>
+          <span class="tons__chip-txt"><b>Portfólio de Mary</b><span class="mono">referência visual</span></span>
+        </div>
+        <div class="chip tons__chip tons__chip--b" aria-hidden="true" data-prof="0.7">
+          <span class="chip__icone"><i data-icone="drop"></i></span>
+          <span class="tons__chip-txt"><b>Serviços de cabelo</b><span class="mono">veja opções e valores</span></span>
+        </div>
+
+        <figcaption class="sr-only tons__anuncio" aria-live="polite"></figcaption>
+      </figure>
+
+      <!-- 3. Fórmula + CTA -->
+      <div class="tons__lado" data-reveal data-reveal-delay="0.1">
+        <article class="vidro spot tons__formula" aria-labelledby="tons-formula-titulo">
+          <header class="tons__formula-cab">
+            <span class="tons__formula-icone" aria-hidden="true"></span>
+            <span>
+              <b id="tons-formula-titulo">Serviço selecionado</b>
+              <small class="mono">REFERÊNCIA VISUAL</small>
+            </span>
+          </header>
+          <dl class="tons__leituras">
+            <div class="leitura tons__leitura">
+              <dt class="leitura__rotulo">SERVIÇO</dt>
+              <dd class="leitura__valor" data-campo="nivel">5.0</dd>
+            </div>
+            <div class="leitura tons__leitura">
+              <dt class="leitura__rotulo">REFERÊNCIA</dt>
+              <dd class="leitura__valor" data-campo="reflexo">Trabalho de cabelo</dd>
+            </div>
+            <div class="leitura tons__leitura">
+              <dt class="leitura__rotulo">INFORMAÇÃO</dt>
+              <dd class="leitura__valor" data-campo="tempo">2h</dd>
+            </div>
+            <div class="leitura tons__leitura">
+              <dt class="leitura__rotulo">VALOR</dt>
+              <dd class="leitura__valor"><small class="tons__preco-pre" data-campo="preco-pre">a partir de</small> <span data-campo="preco">R$ 260</span></dd>
+            </div>
+          </dl>
+          <div class="tons__escala" aria-hidden="true">
+            <div class="tons__escala-cab">
+              <span class="leitura__rotulo">ESCALA DE NÍVEL</span>
+              <span class="leitura__rotulo">escuro · claro</span>
+            </div>
+            <div class="tons__escala-barra">
+              <span class="tons__marcador"></span>
+              <span class="tons__marcador tons__marcador--b"></span>
+            </div>
+            <div class="tons__escala-num mono"><span>1</span><span>5</span><span>10</span></div>
+          </div>
+        </article>
+
+        <a class="btn btn--principal btn--bloco tons__cta" data-magnetico="0.15" data-wa="Olá, Mary! Quero conversar sobre este serviço." href="#">
+          <span class="btn__rotulo">Agendar com a Mary</span>
+          <i data-icone="arrow-right"></i>
+        </a>
+        <p class="tons__nota">A mensagem abre no WhatsApp com o serviço selecionado.</p>
+      </div>
+    </div>
+
+    <section class="mary-work-gallery" aria-labelledby="mary-work-title">
+      <header class="mary-work-gallery__head" data-reveal><p class="servicos__dica mono">PORTFÓLIO</p><h3 class="titulo" id="mary-work-title">Trabalhos de <span class="luz">Mary Gomes.</span></h3><p class="lead">Fotos e vídeos enviados para apresentar os serviços do salão.</p></header>
+      <div class="mary-gallery-controls" role="group" aria-label="Filtrar trabalhos"><button type="button" class="mary-filter is-active" data-filter="todos" aria-pressed="true">Todos</button><button type="button" class="mary-filter" data-filter="cabelo" aria-pressed="false">Cabelo</button><button type="button" class="mary-filter" data-filter="unhas" aria-pressed="false">Unhas</button></div>
+      <div class="mary-gallery" data-cascata><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-01.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" width="738" height="1600" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-05.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" width="738" height="1600" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-13.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" width="738" height="1600" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-17.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" width="738" height="1600" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-25.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" width="738" height="1600" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-29.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" width="738" height="1600" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-37.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" width="935" height="1477" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-51.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" width="591" height="1280" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-57.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" width="1600" height="738" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="cabelo" data-reveal><img src="/mary/work-60.jpeg" alt="Trabalho de cabelo do portfólio de Mary Gomes" width="738" height="1600" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="unhas" data-reveal><img src="/mary/work-43.jpeg" alt="Trabalho de unhas do portfólio de Mary Gomes" width="1536" height="2048" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="unhas" data-reveal><img src="/mary/work-46.jpeg" alt="Trabalho de unhas do portfólio de Mary Gomes" width="780" height="1280" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="unhas" data-reveal><img src="/mary/work-47.jpeg" alt="Trabalho de unhas do portfólio de Mary Gomes" width="1488" height="942" loading="lazy" decoding="async"></figure><figure class="mary-work" data-tipo="unhas" data-reveal><img src="/mary/work-49.jpeg" alt="Trabalho de unhas do portfólio de Mary Gomes" width="1454" height="942" loading="lazy" decoding="async"></figure></div><div class="mary-videos" aria-label="Vídeos do portfólio de Mary"><figure class="mary-video" data-reveal><video controls playsinline preload="metadata" poster="/mary/video-01-poster.jpg"><source src="/mary/video-01.mp4" type="video/mp4">Seu navegador não reproduz este vídeo.</video></figure><figure class="mary-video" data-reveal><video controls playsinline preload="metadata" poster="/mary/video-02-poster.jpg"><source src="/mary/video-02.mp4" type="video/mp4">Seu navegador não reproduz este vídeo.</video></figure><figure class="mary-video" data-reveal><video controls playsinline preload="metadata"><source src="/mary/video-03.mp4" type="video/mp4">Seu navegador não reproduz este vídeo.</video></figure><figure class="mary-video" data-reveal><video controls playsinline preload="metadata" poster="/mary/video-04-poster.jpg"><source src="/mary/video-04.mp4" type="video/mp4">Seu navegador não reproduz este vídeo.</video></figure></div></section>
+  </div>
+</section>
+
       <!-- =========================================================================
      RESULTADOS · a nota do Google num mostrador (anel que fecha em 4,9 de 5,
      marcas acendendo, estrelas) + o ÚNICO marquee da página: duas fileiras
@@ -244,8 +743,8 @@
      ========================================================================= -->
 <section class="secao resultados" id="resultados" data-dobra="resultados" data-luz="20 36" data-luz-b="84 74" data-luz-forca="0.75" aria-labelledby="resultados-titulo">
   <div class="container resultados__topo">
-    <div class="resultados__nota" aria-hidden="true">
-      <div class="resultados__dial" role="img" aria-label="Indicador visual da página de referência">
+    <div class="resultados__nota">
+      <div class="resultados__dial" role="img" aria-label="Nota média 4,9 de 5 no Google">
         <div class="resultados__dial-luz" aria-hidden="true"></div>
         <svg class="resultados__dial-svg" viewBox="0 0 320 320" aria-hidden="true">
           <defs>
@@ -280,9 +779,9 @@
     </div>
 
     <div class="resultados__texto">
-      <h2 class="titulo resultados__titulo" id="resultados-titulo" data-split>O que as clientes <span class="luz">contam.</span></h2>
+      <h2 class="titulo resultados__titulo" id="resultados-titulo" data-split>Quem senta na cadeira, <span class="luz">volta.</span></h2>
       <p class="lead resultados__lead" data-reveal data-reveal-delay="0.1">
-        Confira os depoimentos.
+        Confira os depoimentos preservados da página.
       </p>
       <div class="resultados__acoes" data-reveal data-reveal-delay="0.2">
         <button type="button" class="btn btn--vidro btn--pequeno resultados__pausa" aria-pressed="false">
@@ -293,25 +792,71 @@
     </div>
   </div>
 
-  <div class="resultados__fileiras" role="region" aria-label="Depoimentos">
+  <div class="resultados__fileiras" role="region" aria-label="Depoimentos de clientes">
     <div class="resultados__fileira" data-sentido="-1"><div class="resultados__trilha"></div></div>
     <div class="resultados__fileira" data-sentido="1"><div class="resultados__trilha"></div></div>
   </div>
 </section>
 
-<!-- Dobra: apresentação da profissional; conserva superfícies e movimentos do template. -->
-<section class="secao equipe mary-about" id="mary" data-dobra="equipe" data-luz="18 34" data-luz-b="86 82" data-luz-forca="0.75" aria-labelledby="mary-titulo">
-  <div class="container mary-about__grid"><figure class="mary-about__photo" data-reveal><img src="/mary/mary-800.webp" alt="Mary Gomes" loading="lazy" decoding="async"></figure><div class="mary-about__copy" data-reveal><p class="mary-kicker mono">QUEM CUIDA DE VOCÊ</p><h2 class="titulo" id="mary-titulo" data-split>Quem é <span class="luz">Mary Gomes.</span></h2><p class="lead">Mary trabalha com serviços de cabelo, unhas, sobrancelhas e depilação.</p><p>Conheça as opções, escolha o que procura e converse diretamente com ela para combinar seu atendimento.</p><a class="btn btn--principal" href="#servicos"><span class="btn__rotulo">Ver serviços</span><i data-icone="arrow-right"></i></a></div></div>
+      <!-- =========================================================================
+     EQUIPE · as três profissionais (EQUIPE de config.js) em cartões
+     holográficos: película iridescente que segue o cursor, inclinação 3D,
+     especialidades, anos de salão e "Agendar com X" (pré-preenche a agenda).
+     Os cartões são montados por equipe.js a partir do config. No desktop eles
+     chegam empilhados e se abrem em leque ao rolar; no celular viram um
+     carrossel com snap.
+     ========================================================================= -->
+<section class="secao equipe" id="equipe" data-dobra="equipe" data-luz="18 34" data-luz-b="86 82" data-luz-forca="0.75" aria-labelledby="equipe-titulo">
+  <div class="container">
+    <header class="equipe__cabeca">
+      <div class="cabeca">
+        <h2 class="titulo" id="equipe-titulo" data-split>Quem cuida de você é <span class="luz">Mary Gomes.</span></h2>
+        <p class="lead" data-reveal>Conheça Mary e os serviços que ela realiza no salão.</p>
+      </div>
+
+      <p class="equipe__soma" data-reveal data-reveal-delay="0.15">
+        <span class="equipe__soma-num"><span data-equipe-soma>30</span><small>anos</small></span>
+        <span class="equipe__soma-rot mono">de experiência em beleza</span>
+      </p>
+    </header>
+
+    <ul class="equipe__lista" role="list" aria-label="Mary Gomes"></ul>
+    <div class="equipe__pontos" aria-hidden="true"></div>
+  </div>
 </section>
 
-<!-- Dobra: marcas informadas pela Mary; sem preços ou catálogo presumido. -->
-<section class="secao clube mary-products" id="produtos" data-dobra="clube" data-luz="50 74" data-luz-b="10 22" data-luz-forca="0.75" aria-labelledby="produtos-titulo">
-  <div class="container mary-products__inner"><header class="mary-section-head" data-reveal><p class="mary-kicker mono">TAMBÉM NO SALÃO</p><h2 class="titulo" id="produtos-titulo" data-split>Marcas que você <span class="luz">encontra por aqui.</span></h2><p class="lead">Mary trabalha com produtos Natura, DeMillus, Abelha Rainha e outras marcas.</p></header><div class="mary-brands" data-cascata><span class="vidro">Natura</span><span class="vidro">DeMillus</span><span class="vidro">Abelha Rainha</span><span class="vidro">Entre outras</span></div><a class="btn btn--vidro" data-wa="Olá, Mary! Quero saber sobre os produtos disponíveis." href="#"><i data-icone="whatsapp"></i><span class="btn__rotulo">Perguntar sobre os produtos</span></a></div>
+      <!-- =========================================================================
+     CLUBE · planos de assinatura (PLANOS e DESCONTO_SEMESTRAL de config.js).
+     Alternador mensal/semestral com preços em odômetro, plano Signature com
+     borda luminosa girando no acento e CTA de cada plano abrindo o WhatsApp
+     com a mensagem pronta (atualiza com o período). Os três cartões repousam
+     sobre um horizonte curvo, eco do topo. Os planos são montados por clube.js.
+     ========================================================================= -->
+<section class="secao clube mary-products" id="clube" data-dobra="clube" data-luz="50 74" data-luz-b="10 22" data-luz-forca="0.85" aria-labelledby="clube-titulo">
+  <div class="container clube__inner">
+    <header class="cabeca cabeca--centro clube__cabeca"><h2 class="titulo" id="clube-titulo" data-split>Marcas que você encontra <span class="luz">no salão.</span></h2><p class="lead" data-reveal>Além dos serviços, Mary também trabalha com Natura, DeMillus, Abelha Rainha, entre outras marcas.</p></header>
+    <div class="clube__corpo"><div class="clube__palco"><div class="clube__horizonte" aria-hidden="true"></div><ul class="clube__planos mary-brand-grid" role="list" aria-label="Marcas disponíveis no salão">
+      <li class="clube__plano" data-reveal><article class="vidro spot clube__cartao mary-brand-card"><span class="mary-brand-card__icon"><i data-icone="sparkle"></i></span><h3 class="clube__nome">Natura</h3><p>Produtos Natura no salão.</p><a class="btn btn--vidro btn--pequeno" data-wa="Olá, Mary! Quero saber sobre os produtos Natura disponíveis." href="#"><i data-icone="whatsapp"></i><span class="btn__rotulo">Perguntar à Mary</span></a></article></li>
+      <li class="clube__plano" data-reveal><article class="vidro spot clube__cartao mary-brand-card"><span class="mary-brand-card__icon"><i data-icone="sparkle"></i></span><h3 class="clube__nome">DeMillus</h3><p>Produtos DeMillus no salão.</p><a class="btn btn--vidro btn--pequeno" data-wa="Olá, Mary! Quero saber sobre os produtos DeMillus disponíveis." href="#"><i data-icone="whatsapp"></i><span class="btn__rotulo">Perguntar à Mary</span></a></article></li>
+      <li class="clube__plano" data-reveal><article class="vidro spot clube__cartao mary-brand-card"><span class="mary-brand-card__icon"><i data-icone="sparkle"></i></span><h3 class="clube__nome">Abelha Rainha</h3><p>Produtos Abelha Rainha no salão.</p><a class="btn btn--vidro btn--pequeno" data-wa="Olá, Mary! Quero saber sobre os produtos Abelha Rainha disponíveis." href="#"><i data-icone="whatsapp"></i><span class="btn__rotulo">Perguntar à Mary</span></a></article></li>
+      <li class="clube__plano" data-reveal><article class="vidro spot clube__cartao mary-brand-card"><span class="mary-brand-card__icon"><i data-icone="sparkle"></i></span><h3 class="clube__nome">Outras marcas</h3><p>Consulte Mary sobre as demais marcas.</p><a class="btn btn--vidro btn--pequeno" data-wa="Olá, Mary! Quero saber quais outras marcas estão disponíveis." href="#"><i data-icone="whatsapp"></i><span class="btn__rotulo">Perguntar à Mary</span></a></article></li>
+    </ul></div></div>
+  </div>
 </section>
 
-<!-- Dobra: não há formulário de agenda; o atendimento segue no WhatsApp. -->
-<section class="secao agenda mary-contact" id="whatsapp" data-dobra="agenda" data-luz="16 34" data-luz-b="90 80" data-luz-forca="0.75" aria-labelledby="whatsapp-titulo">
-  <div class="container mary-contact__panel vidro spot" data-reveal><p class="mary-kicker mono">PRÓXIMO PASSO</p><h2 class="titulo" id="whatsapp-titulo" data-split>Escolheu? <span class="luz">É só chamar.</span></h2><p class="lead">Veja os serviços, escolha o que procura e converse com Mary pelo WhatsApp. A mensagem já vai indicar sua escolha.</p><a class="btn btn--principal" data-wa="Olá, Mary! Quero escolher um serviço." href="#"><i data-icone="whatsapp"></i><span class="btn__rotulo">Escolher serviço no WhatsApp</span></a></div>
+      <!-- =========================================================================
+     AGENDA · texto + local (endereço, horários e status ao vivo vindos de
+     SALAO em config.js) e um app de agendamento em 4 etapas num painel de
+     vidro: serviço, profissional, dia e horário, resumo + WhatsApp.
+     Recebe 'agenda:preencher' (store.js) de serviços, tons, equipe e clube.
+     O conteúdo das etapas é montado por agenda.js a partir de config.js.
+     ========================================================================= -->
+<section class="secao agenda mary-contact" id="agenda" data-dobra="agenda" data-luz="16 34" data-luz-b="90 80" data-luz-forca="0.85" aria-labelledby="agenda-titulo">
+  <div class="container agenda__grade">
+    <header class="agenda__cab"><h2 class="titulo agenda__titulo" id="agenda-titulo" data-split>Escolheu o serviço? <span class="luz">Fale com Mary.</span></h2><p class="lead agenda__lead" data-reveal>O site apresenta os trabalhos, serviços e valores. A conversa continua diretamente no WhatsApp.</p></header>
+    <div class="agenda__local" data-reveal><div class="vidro spot agenda__cartao"><div class="agenda__foto"><img src="/mary/mary-800.webp" width="800" height="1000" alt="Mary Gomes, profissional do salão" loading="lazy" decoding="async"></div><div class="agenda__endereco"><span class="agenda__info-icone"><i data-icone="sparkle"></i></span><p><b>Mary Gomes</b><span>Salão de beleza</span></p></div><ul class="agenda__horarios" aria-label="Serviços do salão"><li><span>Cabelo e unhas</span><span class="mono">Serviços e valores</span></li><li><span>Sobrancelhas e depilação</span><span class="mono">Consulte a lista</span></li></ul></div><a class="agenda__direto" data-wa="Olá, Mary! Quero conversar sobre os serviços do salão." href="#"><i data-icone="whatsapp"></i><span>Fale diretamente com <u>Mary pelo WhatsApp</u></span><i data-icone="arrow-up-right"></i></a></div>
+    <div class="vidro spot agenda__app mary-contact-card" data-reveal><span class="agenda__brilho" aria-hidden="true"></span><div class="agenda__app-cab"><div class="agenda__app-id"><span class="agenda__app-logo" aria-hidden="true"><svg viewBox="0 0 32 32"><circle cx="16" cy="17" r="10.5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="16" cy="6.5" r="2.4" fill="#fff"/></svg></span><span><b>Atendimento com Mary</b><small class="mono">CONVERSA PELO WHATSAPP</small></span></div><span class="agenda__contador mono">DIRETO COM MARY</span></div><div class="agenda__palco mary-contact-card__body"><p class="agenda__etapa-titulo">A sua escolha já pode ir na mensagem.</p><p class="agenda__etapa-sub">Toque no serviço desejado para abrir o WhatsApp com o nome dele preenchido.</p><ol class="mary-contact-steps"><li><span class="mono">01</span>Confira os trabalhos</li><li><span class="mono">02</span>Escolha um serviço</li><li><span class="mono">03</span>Converse diretamente com Mary</li></ol><a class="btn btn--principal btn--bloco" data-wa="Olá, Mary! Quero conversar sobre os serviços do salão." href="#"><i data-icone="whatsapp"></i><span class="btn__rotulo">Agendar com a Mary</span></a><p class="agenda__nota">A mensagem abre no seu WhatsApp para você confirmar o atendimento com Mary.</p></div></div>
+  </div>
 </section>
 
       <!-- =========================================================================
@@ -320,16 +865,7 @@
      altura animada com grid-template-rows, borda acende na aberta).
      Respostas coerentes com config.js (serviços, tons, planos, desconto).
      ========================================================================= -->
-<section class="secao faq" id="faq" data-dobra="faq" data-luz="84 24" data-luz-b="8 86" data-luz-forca="0.7" aria-labelledby="faq-titulo">
-  <div class="container faq__grade"><div class="faq__lado"><div class="faq__fixo"><p class="faq__indice mono" aria-hidden="true"><span class="faq__indice-janela"><span class="faq__indice-num" data-faq-indice>01</span></span><span class="faq__indice-total">/ 04</span><span class="faq__indice-barra"><span data-faq-barra></span></span></p><h2 class="titulo faq__titulo" id="faq-titulo" data-split>Ficou com alguma <span class="luz">dúvida?</span></h2><p class="lead faq__lead" data-reveal>Converse diretamente com Mary pelo WhatsApp.</p><div class="vidro faq__contato" data-reveal><div class="faq__rostos" aria-hidden="true"><img src="/mary/mary-480.webp" alt="" width="480" height="600" loading="lazy" decoding="async"></div><p class="faq__contato-txt"><b>Fale com Mary</b><span>Ela pode ajudar você com os serviços e valores.</span></p><a class="btn btn--vidro btn--pequeno faq__contato-btn" data-wa="Olá, Mary! Tenho uma dúvida sobre os serviços." href="#"><i data-icone="whatsapp"></i><span class="btn__rotulo">Perguntar no WhatsApp</span></a></div></div></div>
-    <ul class="faq__lista" data-reveal data-reveal-grupo>
-      <li class="faq__item is-aberto"><h3 class="faq__pergunta"><button class="faq__botao" type="button" id="faq-p1" aria-expanded="true" aria-controls="faq-r1"><span class="faq__num mono">01</span><span class="faq__q">Como escolho o serviço?</span><span class="faq__icone"><i data-icone="plus"></i></span></button></h3><div class="faq__resposta" id="faq-r1" role="region" aria-labelledby="faq-p1"><div class="faq__resposta-in"><p>Veja as categorias e os valores nesta página. Cada serviço tem um atalho para conversar com Mary pelo WhatsApp.</p><a class="faq__link" href="#servicos">Ver serviços <i data-icone="arrow-right"></i></a></div></div></li>
-      <li class="faq__item"><h3 class="faq__pergunta"><button class="faq__botao" type="button" id="faq-p2" aria-expanded="false" aria-controls="faq-r2"><span class="faq__num mono">02</span><span class="faq__q">O que significa “a partir de”?</span><span class="faq__icone"><i data-icone="plus"></i></span></button></h3><div class="faq__resposta" id="faq-r2" role="region" aria-labelledby="faq-p2"><div class="faq__resposta-in"><p>Esse é o valor inicial informado para o serviço. Converse com Mary para confirmar os detalhes antes de combinar.</p></div></div></li>
-      <li class="faq__item"><h3 class="faq__pergunta"><button class="faq__botao" type="button" id="faq-p3" aria-expanded="false" aria-controls="faq-r3"><span class="faq__num mono">03</span><span class="faq__q">O agendamento é feito pelo site?</span><span class="faq__icone"><i data-icone="plus"></i></span></button></h3><div class="faq__resposta" id="faq-r3" role="region" aria-labelledby="faq-p3"><div class="faq__resposta-in"><p>Não. O site mostra os trabalhos, serviços e valores. O atendimento continua diretamente pelo WhatsApp.</p></div></div></li>
-      <li class="faq__item"><h3 class="faq__pergunta"><button class="faq__botao" type="button" id="faq-p4" aria-expanded="false" aria-controls="faq-r4"><span class="faq__num mono">04</span><span class="faq__q">Quais marcas de produtos Mary trabalha?</span><span class="faq__icone"><i data-icone="plus"></i></span></button></h3><div class="faq__resposta" id="faq-r4" role="region" aria-labelledby="faq-p4"><div class="faq__resposta-in"><p>Mary informou que trabalha com Natura, DeMillus, Abelha Rainha e outras marcas.</p></div></div></li>
-    </ul>
-  </div>
-</section>
+<section class="secao faq" id="faq" data-dobra="faq" data-luz="84 24" data-luz-b="8 86" data-luz-forca="0.7" aria-labelledby="faq-titulo"><div class="container faq__grade"><div class="faq__lado"><div class="faq__fixo"><p class="faq__indice mono" aria-hidden="true"><span class="faq__indice-janela"><span class="faq__indice-num" data-faq-indice>01</span></span><span class="faq__indice-total">/ 06</span><span class="faq__indice-barra"><span data-faq-barra></span></span></p><h2 class="titulo faq__titulo" id="faq-titulo" data-split>Antes de falar com <span class="luz">Mary.</span></h2><p class="lead faq__lead" data-reveal>Dúvidas rápidas sobre os serviços, os valores e o atendimento.</p><div class="vidro faq__contato" data-reveal><div class="faq__rostos" aria-hidden="true"><img src="/mary/mary-480.webp" alt="" width="480" height="600" loading="lazy" decoding="async"></div><p class="faq__contato-txt"><b>Fale com Mary</b><span>Ela pode ajudar com dúvidas sobre os serviços.</span></p><a class="btn btn--vidro btn--pequeno faq__contato-btn" data-wa="Olá, Mary! Tenho uma dúvida sobre os serviços." href="#"><i data-icone="whatsapp"></i><span class="btn__rotulo">Perguntar no WhatsApp</span></a></div></div></div><ul class="faq__lista" data-reveal data-reveal-grupo><li class="faq__item is-aberto"><h3 class="faq__pergunta"><button class="faq__botao" type="button" id="faq-p1" aria-expanded="true" aria-controls="faq-r1"><span class="faq__num mono">01</span><span class="faq__q">Como escolho o serviço?</span><span class="faq__icone"><i data-icone="plus"></i></span></button></h3><div class="faq__resposta" id="faq-r1" role="region" aria-labelledby="faq-p1"><div class="faq__resposta-in"><p>Veja os trabalhos, confira os serviços e toque no item desejado. O WhatsApp abre com o nome do serviço na mensagem.</p><a class="faq__link" href="#servicos">Ver serviços <i data-icone="arrow-right"></i></a></div></div></li><li class="faq__item"><h3 class="faq__pergunta"><button class="faq__botao" type="button" id="faq-p2" aria-expanded="false" aria-controls="faq-r2"><span class="faq__num mono">02</span><span class="faq__q">O que quer dizer “a partir de”?</span><span class="faq__icone"><i data-icone="plus"></i></span></button></h3><div class="faq__resposta" id="faq-r2" role="region" aria-labelledby="faq-p2"><div class="faq__resposta-in"><p>Esse é o valor inicial informado para o serviço. Converse com Mary pelo WhatsApp para confirmar o valor do atendimento.</p><a class="faq__link" href="#servicos">Conferir valores <i data-icone="arrow-right"></i></a></div></div></li><li class="faq__item"><h3 class="faq__pergunta"><button class="faq__botao" type="button" id="faq-p3" aria-expanded="false" aria-controls="faq-r3"><span class="faq__num mono">03</span><span class="faq__q">O agendamento é feito pelo site?</span><span class="faq__icone"><i data-icone="plus"></i></span></button></h3><div class="faq__resposta" id="faq-r3" role="region" aria-labelledby="faq-p3"><div class="faq__resposta-in"><p>Não. O site mostra os trabalhos, serviços e valores. O atendimento é combinado diretamente com Mary pelo WhatsApp.</p><a class="faq__link" href="#agenda">Falar com Mary <i data-icone="arrow-right"></i></a></div></div></li><li class="faq__item"><h3 class="faq__pergunta"><button class="faq__botao" type="button" id="faq-p4" aria-expanded="false" aria-controls="faq-r4"><span class="faq__num mono">04</span><span class="faq__q">Quais serviços Mary realiza?</span><span class="faq__icone"><i data-icone="plus"></i></span></button></h3><div class="faq__resposta" id="faq-r4" role="region" aria-labelledby="faq-p4"><div class="faq__resposta-in"><p>Cabelo, unhas, sobrancelhas e depilação. A lista da página mostra os serviços e valores recebidos.</p><a class="faq__link" href="#tons">Ver os trabalhos <i data-icone="arrow-right"></i></a></div></div></li><li class="faq__item"><h3 class="faq__pergunta"><button class="faq__botao" type="button" id="faq-p5" aria-expanded="false" aria-controls="faq-r5"><span class="faq__num mono">05</span><span class="faq__q">Também encontro produtos no salão?</span><span class="faq__icone"><i data-icone="plus"></i></span></button></h3><div class="faq__resposta" id="faq-r5" role="region" aria-labelledby="faq-p5"><div class="faq__resposta-in"><p>Mary informou que trabalha com Natura, DeMillus, Abelha Rainha, entre outras marcas.</p><a class="faq__link" href="#clube">Ver marcas <i data-icone="arrow-right"></i></a></div></div></li><li class="faq__item"><h3 class="faq__pergunta"><button class="faq__botao" type="button" id="faq-p6" aria-expanded="false" aria-controls="faq-r6"><span class="faq__num mono">06</span><span class="faq__q">Onde vejo mais trabalhos?</span><span class="faq__icone"><i data-icone="plus"></i></span></button></h3><div class="faq__resposta" id="faq-r6" role="region" aria-labelledby="faq-p6"><div class="faq__resposta-in"><p>Confira as fotos e os vídeos desta página ou acesse o Instagram pelo link informado por Mary.</p><a class="faq__link" href="#tons">Ver portfólio <i data-icone="arrow-right"></i></a></div></div></li></ul></div></section>
 
     </main>
     <!-- =========================================================================
@@ -348,16 +884,16 @@
     <div class="container final__cta-in">
       <p class="final__leitura mono" aria-hidden="true">
         <span class="final__leitura-ponto"></span>
-        <span>MARY GOMES · SALÃO DE BELEZA</span>
+        <span>ATENDIMENTO PELO WHATSAPP</span>
       </p>
       <h2 class="titulo titulo--hero final__titulo" id="final-titulo">
         <span class="final__linha">Seu próximo cuidado</span>
-        <span class="final__linha">começa com uma <span class="luz">conversa.</span></span>
+        <span class="final__linha">começa <span class="luz">com Mary.</span></span>
       </h2>
-      <p class="lead final__lead">Escolha um serviço e mande uma mensagem para Mary.</p>
+      <p class="lead final__lead">Escolha o serviço e converse diretamente com Mary pelo WhatsApp.</p>
       <div class="final__ctas">
         <a class="btn btn--principal" href="#servicos" data-magnetico="0.25">
-          <span class="btn__rotulo">Ver serviços e chamar Mary</span>
+          <span class="btn__rotulo">Ver serviços</span>
           <i data-icone="arrow-right"></i>
         </a>
         <a class="btn btn--vidro final__wa" data-wa href="#">
@@ -384,9 +920,9 @@
           </svg>
           <span class="marca__nome">Mary<small>GOMES</small></span>
         </a>
-        <p class="final__desc">Salão de beleza Mary Gomes. Serviços para cabelo, unhas e beleza.</p>
+        <p class="final__desc">Serviços de cabelo, unhas, sobrancelhas e depilação com Mary Gomes.</p>
         <div class="final__sociais">
-          <a class="final__social" data-final-instagram href="https://www.instagram.com/invites/contact/?utm_content=em5es4e&amp;dlrf=1l829qe1pp3n7" target="_blank" rel="noopener" aria-label="Instagram de Mary Gomes">
+          <a class="final__social" data-final-instagram href="https://www.instagram.com/halobeautylab" target="_blank" rel="noopener" aria-label="Instagram de Mary Gomes">
             <i data-icone="instagram"></i>
           </a>
           <a class="final__social" data-wa href="#" aria-label="WhatsApp de Mary Gomes">
@@ -400,16 +936,14 @@
         <address class="final__endereco">
           <span>Salão de beleza</span>
         </address>
-        <ul class="final__horarios" data-final-horarios aria-label="Horários de atendimento">
-
-        </ul>
+        <ul class="final__horarios" data-final-horarios aria-label="Horários de atendimento"></ul>
       </div>
 
       <div class="final__col">
         <h3 class="final__rotulo mono">Contato</h3>
         <ul class="final__lista">
           <li>
-            <a class="final__link" data-final-instagram href="https://www.instagram.com/invites/contact/?utm_content=em5es4e&amp;dlrf=1l829qe1pp3n7" target="_blank" rel="noopener">
+            <a class="final__link" data-final-instagram href="https://www.instagram.com/halobeautylab" target="_blank" rel="noopener">
               <i data-icone="instagram"></i><span>Instagram de Mary Gomes</span>
             </a>
           </li>
@@ -417,8 +951,8 @@
             <a class="final__link" data-wa href="#"><i data-icone="whatsapp"></i><span>WhatsApp</span></a>
           </li>
           <li>
-            <a class="final__link" data-final-telefone href="tel:+5521987550704">
-              <i data-icone-depois="phone"></i><span data-final-salao="telefone">(21) 98755-0704</span>
+            <a class="final__link" data-final-telefone href="tel:+550000000000">
+              <i data-icone-depois="phone"></i><span>(21) 98755-0704</span>
             </a>
           </li>
         </ul>
@@ -427,12 +961,12 @@
       <nav class="final__col" aria-label="Seções da página">
         <h3 class="final__rotulo mono">Na página</h3>
         <ul class="final__lista final__lista--secoes">
-          <li><a class="final__link" href="#diagnostico">Como escolher</a></li>
+          <li><a class="final__link" href="#diagnostico">Como funciona</a></li>
           <li><a class="final__link" href="#servicos">Serviços</a></li>
-          <li><a class="final__link" href="#trabalhos">Trabalhos</a></li>
-          <li><a class="final__link" href="#mary">Mary Gomes</a></li>
-          <li><a class="final__link" href="#produtos">Produtos</a></li>
-          <li><a class="final__link" href="#whatsapp">WhatsApp</a></li>
+          <li><a class="final__link" href="#tons">Trabalhos</a></li>
+          <li><a class="final__link" href="#equipe">Mary Gomes</a></li>
+          <li><a class="final__link" href="#clube">Produtos</a></li>
+          <li><a class="final__link" href="#agenda">WhatsApp</a></li>
           <li><a class="final__link" href="#faq">Dúvidas</a></li>
         </ul>
       </nav>
@@ -444,7 +978,7 @@
   </div>
 
   <div class="container final__legal">
-    <p>Mary Gomes · Salão de beleza</p>
+    <p>Mary Gomes · Salão de beleza · © 2026</p>
     <p class="final__credito">
       Criada por
       <a href="https://app.upwardacademy.com.br/app/templates" target="_blank" rel="noopener">Upward Academy</a>
