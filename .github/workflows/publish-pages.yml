@@ -1,0 +1,65 @@
+name: Publicar site da Mary no GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "index.html"
+      - "public/**"
+      - ".github/workflows/publish-pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar o repositório
+        uses: actions/checkout@v6
+
+      - name: Configurar GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Montar versão estática do site
+        env:
+          REPOSITORY_NAME: ${{ github.event.repository.name }}
+        run: |
+          mkdir -p dist
+          cp index.html dist/index.html
+          cp -R public/. dist/
+          touch dist/.nojekyll
+          python3 - <<'PY'
+          import os
+          import re
+          from pathlib import Path
+
+          base = "/" + os.environ["REPOSITORY_NAME"] + "/"
+          for path in Path("dist").rglob("*"):
+              if path.suffix.lower() not in {".html", ".css", ".js"}:
+                  continue
+              source = path.read_text(encoding="utf-8")
+              source = re.sub(r"(?<![A-Za-z0-9])/(assets|mary)/", lambda match: base + match.group(1) + "/", source)
+              path.write_text(source, encoding="utf-8")
+          PY
+
+      - name: Enviar arquivos do site
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+
+      - name: Publicar no GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
