@@ -105,9 +105,11 @@ if (!window.__maryPortfolioEffectsLoaded) {
     const tag = root.querySelector(".mary-index__tag");
     const number = root.querySelector(".mary-index__big span");
     const context = canvas?.getContext("2d");
+    const touchMode = navigator.maxTouchPoints > 0 || window.matchMedia("(hover: none), (pointer: coarse)").matches;
     if (!rows.length || !list || !float || !canvas || !tag || !context) return;
 
     root.classList.add("is-on");
+    if (touchMode) root.classList.add("is-touch");
     const images = rows.map((row) => {
       const image = new Image();
       image.decoding = "async";
@@ -161,7 +163,9 @@ if (!window.__maryPortfolioEffectsLoaded) {
       x += (targetX - x) * 0.22;
       y += (targetY - y) * 0.22;
       velocity = x - oldX;
-      float.style.transform = `translate3d(${x}px, ${y}px, 0) rotate(${Math.max(-7, Math.min(7, velocity * 0.08))}deg) scale(${1 + Math.min(0.08, Math.abs(velocity) * 0.003)})`;
+      if (!touchMode) {
+        float.style.transform = `translate3d(${x}px, ${y}px, 0) rotate(${Math.max(-7, Math.min(7, velocity * 0.08))}deg) scale(${1 + Math.min(0.08, Math.abs(velocity) * 0.003)})`;
+      }
       root.style.setProperty("--mary-index-x", `${(x / Math.max(1, root.clientWidth)) * 100}%`);
       root.style.setProperty("--mary-index-y", `${(y / Math.max(1, root.clientHeight)) * 100}%`);
       draw();
@@ -182,7 +186,17 @@ if (!window.__maryPortfolioEffectsLoaded) {
       setActive(row ? rows.indexOf(row) : -1, event.clientX, event.clientY);
       if (!row) hide();
     });
-    root.addEventListener("pointerleave", hide);
+    root.addEventListener("click", (event) => {
+      if (!touchMode) return;
+      const row = event.target.closest(".mary-index__row");
+      if (!row) return;
+      const bounds = root.getBoundingClientRect();
+      setActive(rows.indexOf(row), bounds.left + bounds.width / 2, bounds.top + bounds.height / 2);
+      row.append(float);
+    });
+    root.addEventListener("pointerleave", () => {
+      if (!touchMode) hide();
+    });
     rows.forEach((row, index) => {
       row.querySelector("button")?.addEventListener("focus", () => {
         const rect = row.getBoundingClientRect();

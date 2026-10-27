@@ -159,3 +159,26 @@ html,body,.topo__ceu,.final__ceu{background-color:var(--bg)}
 
 /* Acabamento editorial: o rótulo do portfólio fica limpo, sem traço decorativo. */
 .diagnostico__sobre::before{content:none!important;display:none!important;width:0!important;height:0!important;box-shadow:none!important}
+
+/* Ajustes exclusivos para a sequência de rolagem e a lista de trabalhos no celular. */
+.diagnostico__cab-icone .diagnostico__marca{width:20px;height:20px;color:var(--acc-forte)}
+.diagnostico__legenda .diagnostico__marca{width:14px;height:14px;color:var(--acc-forte)}
+.diagnostico__legenda [data-icone="whatsapp"]{width:14px;height:14px;color:#25d366}
+.diagnostico__legenda .diagnostico__legenda-a:before,.diagnostico__legenda .diagnostico__legenda-b:before{content:none!important;display:none!important}
+@media(max-width:767px){
+  .js-motion .diagnostico__cena{margin-top:clamp(24px,5vh,40px)}
+  .js-motion .diagnostico__roteiro{margin-top:18px}
+  .js-motion .diagnostico__passo{min-height:44vh;min-height:44svh}
+  .js-motion .diagnostico__passo:last-child{min-height:36vh;min-height:36svh}
+  .js-motion .diagnostico__evolucao{grid-template-columns:minmax(0,1fr);gap:calc(12 * var(--k))}
+  .js-motion .diagnostico__compara{grid-template-columns:repeat(2,minmax(0,1fr));gap:calc(10 * var(--k))}
+  .js-motion .diagnostico__compara-item b{font-size:calc(16 * var(--k));line-height:1.2;letter-spacing:-.02em}
+  .js-motion .diagnostico__grafico{grid-column:1/-1}
+  .js-motion .diagnostico__spark,.js-motion .diagnostico__eixo{display:none}
+  .js-motion .diagnostico__legenda{justify-content:center;align-items:center;gap:calc(18 * var(--k));font-size:calc(10 * var(--k))}
+  .mary-index.is-touch:not(.is-card) .mary-index__float{display:none}
+  .mary-index.is-touch .mary-index__row.is-on{grid-template-columns:minmax(0,1fr);grid-template-rows:auto auto}
+  .mary-index.is-touch .mary-index__row.is-on>button{grid-column:1/-1}
+  .mary-index.is-touch.is-card .mary-index__float{position:relative;z-index:0;grid-column:1/-1;left:auto;top:auto;width:min(72vw,260px);margin:12px auto 16px;transform:none!important}
+  .mary-index.is-touch .mary-index__card{transform:none!important}
+}
