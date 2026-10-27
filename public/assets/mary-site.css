@@ -93,6 +93,8 @@
 @media(max-width:640px){.mary-ba{--mary-ba-loupe:104px}.mary-ba__tag{top:8px;padding:5px 8px;font-size:9px}.mary-ba__tag.is-a{left:8px}.mary-ba__tag.is-b{right:8px}.mary-ba__toggle{right:8px;bottom:8px;min-height:30px;padding-inline:9px;font-size:9px}.mary-work-gallery{padding-block:32px}.mary-index__row button{grid-template-columns:28px minmax(0,1fr) 20px;gap:0 6px;padding-inline:4px}.mary-index__name{font-size:clamp(20px,6vw,30px)}.mary-index__no{font-size:9px}}
 /* Em telas menores, mantenha o palco antes das etapas para que a pessoa acompanhe a sequência enquanto rola. */
 @media(max-width:1023px){.diagnostico__roteiro{order:0}}
+/* Retira os círculos, o feixe vertical e o clarão ao redor do painel do portfólio. */
+#tons .tons__halo,#tons .tons__anel,#tons .tons__feixe,#tons .tons__clarao{display:none!important}
 /* Oculta elementos de marca e edição do Lovable. */
 a[href*="lovable"],
 [class*="lovable"],
