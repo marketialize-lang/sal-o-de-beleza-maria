@@ -156,3 +156,6 @@ html,body,.topo__ceu,.final__ceu{background-color:var(--bg)}
 .final__linha{background:var(--grad-titulo);color:#0000;-webkit-background-clip:text;background-clip:text}
 .final__leitura,.final__social{background:rgb(var(--papel-rgb) / .72);color:var(--text-2);box-shadow:inset 0 0 0 1px var(--line-2),inset 0 1px 0 #ffffff12}
 .final__legal,.final__horarios li,.mary-price-list li,.mary-service-row{border-color:var(--line)}
+
+/* Acabamento editorial: o rótulo do portfólio fica limpo, sem traço decorativo. */
+.diagnostico__sobre::before{content:none}

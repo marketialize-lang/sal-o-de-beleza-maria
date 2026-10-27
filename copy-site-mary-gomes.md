@@ -20,7 +20,7 @@ A página mantém a sequência e os efeitos da referência: apresentação, cate
 
 **Título:** Cabelo, unhas e sobrancelhas com Mary Gomes.
 
-**Texto:** Escolha o serviço, confira o valor e chame Mary no WhatsApp para combinar o horário.
+**Texto:** Veja os serviços e os valores. Para marcar, fale com Mary pelo WhatsApp.
 
 **Ações:** Consultar serviços · Agendar com Mary.
 
@@ -61,13 +61,13 @@ Os serviços aparecem organizados em seis cartões: corte; coloração e mechas;
 
 O portfólio mostra transformações de cabelo antes e depois e, em seguida, outros resultados de cabelo e unhas em imagens individuais. Os quatro vídeos usam os arquivos originais enviados. Os depoimentos da página de referência foram mantidos; os indicadores de avaliação da marca de origem ficam ocultos para não atribuí-los a Mary.
 
-**Texto de abertura:** Cabelos antes e depois. Alguns trabalhos de cabelo e unhas feitos por Mary.
+**Texto de abertura:** Cabelos antes e depois, trabalhos de unhas e outros resultados do salão. Os valores estão na lista de serviços.
 
 ### Mary e marcas
 
 **Título:** Mary Gomes.
 
-**Texto:** No salão, Mary trabalha com cabelo, unhas, sobrancelhas e depilação. A página informa os 30 anos de experiência uma única vez.
+**Texto:** Mary tem 30 anos de experiência e trabalha com cabelo, unhas, sobrancelhas e depilação.
 
 **Marcas informadas:** Natura, DeMillus, Abelha Rainha, entre outras. Cada cartão permite perguntar diretamente a Mary sobre os produtos disponíveis.
 
