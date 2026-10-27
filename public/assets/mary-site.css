@@ -95,6 +95,9 @@
 @media(max-width:1023px){.diagnostico__roteiro{order:0}}
 /* Retira os círculos, o feixe vertical e o clarão ao redor do painel do portfólio. */
 #tons .tons__halo,#tons .tons__anel,#tons .tons__feixe,#tons .tons__clarao{display:none!important}
+/* WhatsApp flutuante somente com o ícone; o contador da foto não aparece. */
+.wa-flutuante{width:52px;height:52px;justify-content:center;gap:0;padding:0!important}
+.wa-flutuante__texto,#tons .tons__contador{display:none!important}
 /* Oculta elementos de marca e edição do Lovable. */
 a[href*="lovable"],
 [class*="lovable"],
