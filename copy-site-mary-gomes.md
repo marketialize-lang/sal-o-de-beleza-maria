@@ -14,13 +14,13 @@
 
 ## Estrutura e copy
 
-A página acompanha a sequência e os efeitos da referência: apresentação, faixa de categorias, jornada visual em quatro etapas, serviços, portfólio interativo, depoimentos, apresentação de Mary, marcas, contato pelo WhatsApp, dúvidas e chamada final.
+A página mantém a sequência e os efeitos da referência: apresentação, categorias, jornada visual, serviços, portfólio, depoimentos, apresentação de Mary, marcas, contato, dúvidas e chamada final. A linguagem foi revisada para frases mais diretas, sem alterar identidade visual ou interações.
 
 ### Apresentação
 
 **Título:** Beleza e cuidado com Mary Gomes.
 
-**Texto:** Mary trabalha há 30 anos com cabelo, unhas e beleza. Veja os trabalhos, escolha um serviço e fale com ela pelo WhatsApp.
+**Texto:** Há 30 anos, Mary atende em cabelo, unhas e beleza. Veja os trabalhos, escolha um serviço e fale com ela pelo WhatsApp.
 
 **Ações:** Ver serviços · Agendar com a Mary.
 
@@ -61,21 +61,21 @@ Os serviços aparecem organizados em seis cartões do design original: corte; co
 
 O portfólio mostra transformações de cabelo antes e depois e, em seguida, outros resultados de cabelo e unhas em imagens individuais. Os quatro vídeos usam os arquivos originais enviados. Os depoimentos da página de referência foram mantidos; os indicadores de avaliação da marca de origem ficam ocultos para não atribuí-los a Mary.
 
-**Texto de abertura:** Trabalhos feitos pela Mary. Veja algumas transformações e outros trabalhos de cabelo e unhas.
+**Texto de abertura:** Antes e depois. Veja também outros trabalhos de cabelo e unhas.
 
 ### Mary e marcas
 
-**Título:** Quem cuida de você é Mary Gomes.
+**Título:** Conheça Mary Gomes.
 
-**Texto:** Há 30 anos, Mary cuida de cabelo e beleza com atenção a cada pessoa.
+**Texto:** Mary atende com serviços de cabelo, unhas, sobrancelhas e depilação.
 
 **Marcas informadas:** Natura, DeMillus, Abelha Rainha, entre outras. Cada cartão permite perguntar diretamente a Mary sobre os produtos disponíveis.
 
 ### Contato e dúvidas
 
-**Título:** Escolheu o serviço? Fale com Mary.
+**Título:** Fale com Mary pelo WhatsApp.
 
-Mary combina o atendimento diretamente pelo WhatsApp. Cada atalho abre uma conversa com o serviço escolhido.
+A pessoa escolhe um serviço e envia uma mensagem para combinar o atendimento.
 
 As dúvidas explicam a escolha do serviço, os valores “a partir de”, o atendimento pelo WhatsApp, as categorias oferecidas, as marcas e o portfólio.
 
