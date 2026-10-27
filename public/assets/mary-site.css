@@ -109,4 +109,4 @@ div[id*="lovable"],
 [aria-label*="lovable" i] {
   display: none !important;
 }
-.titulo{font-family:"Inter Tight",var(--f-sans);font-weight:500;letter-spacing:-.045em}.titulo--hero{font-weight:600;letter-spacing:-.06em}
+.titulo{font-family:"Inter Tight",var(--f-sans);font-weight:600;letter-spacing:-.055em}.titulo--hero{font-weight:650;letter-spacing:-.065em}
