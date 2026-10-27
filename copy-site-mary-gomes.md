@@ -61,7 +61,7 @@ Os serviços aparecem organizados em seis cartões: corte; coloração e mechas;
 
 O portfólio mostra transformações de cabelo antes e depois e, em seguida, outros resultados de cabelo e unhas em imagens individuais. Os quatro vídeos usam os arquivos originais enviados. Os depoimentos da página de referência foram mantidos; os indicadores de avaliação da marca de origem ficam ocultos para não atribuí-los a Mary.
 
-**Texto de abertura:** Cabelos antes e depois, trabalhos de unhas e outros resultados do salão. Os valores estão na lista de serviços.
+**Texto de abertura:** Cabelos antes e depois, trabalhos de unhas e outros resultados do salão. Os valores estão na lista de serviços. Na galeria seguinte: “Transformações de cabelo e trabalhos de unhas feitos por Mary.”
 
 ### Mary e marcas
 
@@ -69,7 +69,7 @@ O portfólio mostra transformações de cabelo antes e depois e, em seguida, out
 
 **Texto:** Mary tem 30 anos de experiência e trabalha com cabelo, unhas, sobrancelhas e depilação.
 
-**Marcas informadas:** Natura, DeMillus, Abelha Rainha, entre outras. Cada cartão permite perguntar diretamente a Mary sobre os produtos disponíveis.
+**Marcas informadas:** Natura, DeMillus, Abelha Rainha, entre outras. Cada cartão traz uma descrição curta e permite consultar Mary sobre os produtos disponíveis.
 
 ### Contato e dúvidas
 
