@@ -114,3 +114,45 @@ div[id*="lovable"],
 /* Tipografia editorial da referência; paleta, efeitos e identidade Mary permanecem. */
 .titulo{font-family:Georgia,"Times New Roman",serif;font-weight:400;letter-spacing:-.045em}
 .titulo--hero{font-weight:400;letter-spacing:-.055em;line-height:.98}
+
+/* Restaura a paleta original caso a Lovable mantenha em cache a folha anterior. */
+:root{
+  --bg:#f7f3f0;--bg-2:#f1ebe7;--bg-3:#e9e1dc;
+  --surface:#ffffff9e;--surface-2:#ffffffc7;--surface-3:#ffffffeb;
+  --line:#3a243017;--line-2:#3a243024;--line-3:#3a243038;
+  --ink-rgb:46 30 40;--sombra-rgb:92 52 70;
+  --text:#1d171b;--text-2:#554b52;--text-3:#74696f;--text-4:#a59aa0;
+  --acc-base:#efa7b5;
+  --grad-titulo:linear-gradient(100deg,#8a7c84 0%,#4a3e45 30%,#241c21 60%,#140f12 100%);
+  --grad-luz:linear-gradient(100deg,var(--acc-escuro) 0%,var(--acc-forte) 45%,color-mix(in oklab,var(--acc) 80%,#3a1d2b) 100%);
+  --r-md:18px;--r-lg:24px;--r-xl:32px;
+  --sec-y:clamp(96px,12vw,168px);
+  color-scheme:light;
+}
+html,body,.topo__ceu,.final__ceu{background-color:var(--bg)}
+.nav.is-solida{background:rgb(var(--papel-rgb) / .72);box-shadow:0 1px 0 var(--line)}
+.nav__links{background:rgb(var(--papel-rgb) / .66);box-shadow:inset 0 0 0 1px var(--line),inset 0 1px 0 #ffffff0f}
+.nav__links a:hover,.nav__links a.is-atual{background:rgb(var(--papel-rgb) / .87);color:var(--text)}
+.vidro{border-radius:var(--r-lg);background:linear-gradient(180deg,rgb(var(--papel-rgb) / .86) 0%,rgb(var(--papel-rgb) / .62) 100%),rgb(var(--papel-rgb) / .35);box-shadow:inset 0 0 0 1px var(--line),inset 0 1px 0 #ffffff17,0 30px 80px -30px rgb(var(--sombra-rgb) / .225)}
+.mary-transform{background:rgb(var(--papel-rgb) / .38);box-shadow:inset 0 0 0 1px var(--line)}
+.mary-products__inner{background:radial-gradient(ellipse at 84% 4%,var(--acc-10),transparent 48%),rgb(var(--papel-rgb) / .45);box-shadow:inset 0 0 0 1px var(--line)}
+.mary-contact__panel{background:radial-gradient(ellipse at 82% 0%,var(--acc-10),transparent 50%),rgb(var(--papel-rgb) / .48)}
+.selo,.btn--vidro{background:rgb(var(--papel-rgb) / .75);color:var(--text);box-shadow:inset 0 0 0 1px var(--line-2),inset 0 1px 0 #ffffff14}
+.mary-filter{background:var(--surface);color:var(--text-2);box-shadow:none}
+.mary-brands>span{background:transparent;color:var(--text-2);box-shadow:inset 0 0 0 1px var(--line-2)}
+.mary-service-icon{background:var(--acc-10);color:var(--acc-forte);box-shadow:none}
+.btn--principal{background:var(--text);color:#fff;box-shadow:0 0 0 1px #fff6 inset,0 10px 30px -10px var(--acc-70),0 0 0 0 var(--acc-20)}
+.btn--principal:hover{background:color-mix(in oklab,var(--text) 82%,var(--acc-forte));color:#fff;box-shadow:0 0 0 1px #fff9 inset,0 14px 40px -10px var(--acc),0 0 0 6px var(--acc-10)}
+.mary-work,.mary-video{background:var(--bg-3);box-shadow:inset 0 0 0 1px var(--line)}
+.mary-about__photo{box-shadow:0 24px 80px -40px var(--acc-40)}
+.mary-index{background:radial-gradient(42% 54% at var(--mary-index-x,70%) var(--mary-index-y,40%),rgb(255 255 255/.82),transparent 72%),radial-gradient(70% 60% at 0 100%,var(--acc-10),transparent 64%)}
+.mary-index__big{-webkit-text-stroke-color:rgb(58 36 41 / .12)}
+.mary-ba__tag.is-b,.mary-index__tag{background:rgb(255 255 255 / .82);color:var(--text)}
+.chip,.topo__card-tag{background:rgb(var(--papel-rgb) / .72);color:var(--text-2);box-shadow:inset 0 0 0 1px var(--line),inset 0 1px 0 #ffffff12}
+.chip__icone,.topo__card-icone{background:rgb(var(--papel-rgb) / .93);color:var(--text);box-shadow:inset 0 0 0 1px var(--line)}
+.topo__chip-txt .mono,.topo__card-cab small{color:var(--text-3)}
+.mary-price,.mary-service-link{color:var(--text-2)}
+.mary-price b,.mary-service-link b{color:var(--text)}
+.final__linha{background:var(--grad-titulo);color:#0000;-webkit-background-clip:text;background-clip:text}
+.final__leitura,.final__social{background:rgb(var(--papel-rgb) / .72);color:var(--text-2);box-shadow:inset 0 0 0 1px var(--line-2),inset 0 1px 0 #ffffff12}
+.final__legal,.final__horarios li,.mary-price-list li,.mary-service-row{border-color:var(--line)}
