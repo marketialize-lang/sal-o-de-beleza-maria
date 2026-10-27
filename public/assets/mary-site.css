@@ -158,4 +158,4 @@ html,body,.topo__ceu,.final__ceu{background-color:var(--bg)}
 .final__legal,.final__horarios li,.mary-price-list li,.mary-service-row{border-color:var(--line)}
 
 /* Acabamento editorial: o rótulo do portfólio fica limpo, sem traço decorativo. */
-.diagnostico__sobre::before{content:none}
+.diagnostico__sobre::before{content:none!important;display:none!important;width:0!important;height:0!important;box-shadow:none!important}
