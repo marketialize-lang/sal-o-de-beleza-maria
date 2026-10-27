@@ -5,7 +5,7 @@
 ## Direção de conteúdo
 
 - **Marca:** Mary Gomes.
-- **Experiência informada:** 30 anos, citada uma vez na apresentação principal.
+- **Experiência informada:** 30 anos, apresentada uma vez na seção sobre Mary.
 - **Ação:** a pessoa vê fotos e vídeos, escolhe um serviço e abre o WhatsApp com o serviço no texto da mensagem.
 - **Contato:** WhatsApp `+55 21 98755-0704`.
 - **Instagram recebido:** https://www.instagram.com/invites/contact/?utm_content=em5es4e&dlrf=1l829qe1pp3n7
@@ -18,9 +18,9 @@ A página mantém a sequência e os efeitos da referência: apresentação, cate
 
 ### Apresentação
 
-**Título:** Beleza e cuidado com Mary Gomes.
+**Título:** Cabelo, unhas e beleza com Mary Gomes.
 
-**Texto:** Há 30 anos, Mary atende em cabelo, unhas e beleza. Veja os trabalhos, escolha um serviço e fale com ela pelo WhatsApp.
+**Texto:** Veja os trabalhos e os valores. Para marcar, chame Mary pelo WhatsApp.
 
 **Ações:** Ver serviços · Agendar com a Mary.
 
@@ -61,13 +61,13 @@ Os serviços aparecem organizados em seis cartões do design original: corte; co
 
 O portfólio mostra transformações de cabelo antes e depois e, em seguida, outros resultados de cabelo e unhas em imagens individuais. Os quatro vídeos usam os arquivos originais enviados. Os depoimentos da página de referência foram mantidos; os indicadores de avaliação da marca de origem ficam ocultos para não atribuí-los a Mary.
 
-**Texto de abertura:** Antes e depois. Veja também outros trabalhos de cabelo e unhas.
+**Texto de abertura:** Antes e depois. Outros trabalhos de cabelo e unhas feitos por Mary.
 
 ### Mary e marcas
 
 **Título:** Conheça Mary Gomes.
 
-**Texto:** Mary atende com serviços de cabelo, unhas, sobrancelhas e depilação.
+**Texto:** Mary trabalha com cabelo, unhas, sobrancelhas e depilação.
 
 **Marcas informadas:** Natura, DeMillus, Abelha Rainha, entre outras. Cada cartão permite perguntar diretamente a Mary sobre os produtos disponíveis.
 
