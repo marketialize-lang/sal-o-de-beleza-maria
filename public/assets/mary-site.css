@@ -182,3 +182,8 @@ html,body,.topo__ceu,.final__ceu{background-color:var(--bg)}
   .mary-index.is-touch.is-card .mary-index__float{position:relative;z-index:0;grid-column:1/-1;left:auto;top:auto;width:min(72vw,260px);margin:12px auto 16px;transform:none!important}
   .mary-index.is-touch .mary-index__card{transform:none!important}
 }
+/* Evita que os dois rótulos mais longos da faixa de serviços se sobreponham no celular. */
+@media(max-width:640px){
+  .prova__item:nth-child(3) .prova__numero,
+  .prova__item:nth-child(4) .prova__numero{font-size:clamp(1.1rem,5vw,1.4rem);line-height:1.1;white-space:normal}
+}
