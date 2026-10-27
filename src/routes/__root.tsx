@@ -90,7 +90,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     ],
     links: [
       { rel: "stylesheet", href: "/assets/style.css" },
-      { rel: "stylesheet", href: "/assets/mary-site.css?v=marcus-editorial-20261027-1" },
+      { rel: "stylesheet", href: "/assets/mary-site.css?v=marcus-editorial-20261027-2" },
       { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
     ],
   }),

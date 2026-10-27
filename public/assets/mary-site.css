@@ -178,6 +178,9 @@ html,body,.topo__ceu,.final__ceu{background-color:var(--bg)}
 .mary-index__big{-webkit-text-stroke-color:rgb(244 236 228 / .09)}
 .mary-index__row.is-on .mary-index__name,.mary-index__row.is-on .mary-index__go{color:var(--text)}
 .mary-ba__tag.is-b{background:rgb(23 19 18 / .82);color:var(--text)}
+.chip,.topo__card-tag,.mary-index__tag{background:rgb(34 27 25 / .88);color:var(--text-2);box-shadow:inset 0 0 0 1px var(--line)}
+.chip__icone,.topo__card-icone{background:rgb(244 236 228 / .09);color:var(--acc);box-shadow:inset 0 0 0 1px var(--line)}
+.topo__chip-txt .mono,.topo__card-cab small{color:var(--text-3)}
 .mary-price,.mary-service-link{color:var(--text-2)}
 .mary-price b,.mary-service-link b{color:var(--text)}
 .final__linha{background:linear-gradient(100deg,var(--text),var(--text));color:transparent;-webkit-background-clip:text;background-clip:text}
