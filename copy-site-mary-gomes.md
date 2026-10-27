@@ -14,19 +14,19 @@
 
 ## Estrutura e copy
 
-A página mantém a sequência e os efeitos da referência: apresentação, categorias, jornada visual, serviços, portfólio, depoimentos, apresentação de Mary, marcas, contato, dúvidas e chamada final. A linguagem foi revisada para frases mais diretas, sem alterar identidade visual ou interações.
+A página mantém a sequência e os efeitos da referência: apresentação, categorias, jornada visual, serviços, portfólio, depoimentos, apresentação de Mary, marcas, contato, dúvidas e chamada final. Os títulos identificam o conteúdo de cada seção; os textos explicam serviços, preços e contato com linguagem direta.
 
 ### Apresentação
 
-**Título:** Cabelo, unhas e beleza com Mary Gomes.
+**Título:** Cabelo, unhas e sobrancelhas com Mary Gomes.
 
-**Texto:** Veja os trabalhos e os valores. Para marcar, chame Mary pelo WhatsApp.
+**Texto:** Escolha o serviço, confira o valor e chame Mary no WhatsApp para combinar o horário.
 
-**Ações:** Ver serviços · Agendar com a Mary.
+**Ações:** Consultar serviços · Agendar com Mary.
 
 ### Serviços e valores
 
-Os serviços aparecem organizados em seis cartões do design original: corte; coloração e mechas; tratamentos; escova e banho de brilho; unhas e pés; sobrancelhas, depilação e maquiagem. Cada serviço informado tem seu próprio link para o WhatsApp. Valores “a partir de” mantêm essa condição. Maquiagem permanece como serviço da referência e direciona a pessoa a consultar Mary, sem valor inventado.
+Os serviços aparecem organizados em seis cartões: corte; coloração e mechas; tratamentos; escova e banho de brilho; unhas e pés; sobrancelhas, depilação e maquiagem. Cada serviço informado tem seu próprio link para o WhatsApp. Valores “a partir de” mantêm essa condição. Maquiagem permanece como serviço da referência e direciona a pessoa a consultar Mary, sem valor inventado.
 
 | Serviço | Valor informado |
 |---|---:|
@@ -61,23 +61,23 @@ Os serviços aparecem organizados em seis cartões do design original: corte; co
 
 O portfólio mostra transformações de cabelo antes e depois e, em seguida, outros resultados de cabelo e unhas em imagens individuais. Os quatro vídeos usam os arquivos originais enviados. Os depoimentos da página de referência foram mantidos; os indicadores de avaliação da marca de origem ficam ocultos para não atribuí-los a Mary.
 
-**Texto de abertura:** Antes e depois. Outros trabalhos de cabelo e unhas feitos por Mary.
+**Texto de abertura:** Cabelos antes e depois. Alguns trabalhos de cabelo e unhas feitos por Mary.
 
 ### Mary e marcas
 
-**Título:** Conheça Mary Gomes.
+**Título:** Mary Gomes.
 
-**Texto:** Mary trabalha com cabelo, unhas, sobrancelhas e depilação.
+**Texto:** No salão, Mary trabalha com cabelo, unhas, sobrancelhas e depilação. A página informa os 30 anos de experiência uma única vez.
 
 **Marcas informadas:** Natura, DeMillus, Abelha Rainha, entre outras. Cada cartão permite perguntar diretamente a Mary sobre os produtos disponíveis.
 
 ### Contato e dúvidas
 
-**Título:** Fale com Mary pelo WhatsApp.
+**Título:** Agende com Mary pelo WhatsApp.
 
-A pessoa escolhe um serviço e envia uma mensagem para combinar o atendimento.
+A pessoa escolhe um serviço e envia uma mensagem para combinar o horário.
 
-As dúvidas explicam a escolha do serviço, os valores “a partir de”, o atendimento pelo WhatsApp, as categorias oferecidas, as marcas e o portfólio.
+As dúvidas explicam como escolher um serviço, o que significa “a partir de”, como marcar pelo WhatsApp, quais categorias Mary atende, quais marcas estão no salão e onde ver os trabalhos.
 
 ## Direção visual e interações
 
